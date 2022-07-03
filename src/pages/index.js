@@ -18,7 +18,7 @@ const AboutSchool = () => {
       <Typography variant="h2" sx={{ textAlign: 'center' }}>
         Acerca de las Escuelas Taller
       </Typography>
-      <Grid container sx={{ display: 'flex', marginTop: '50px' }}>
+      <Grid container sx={{ display: 'flex' }}>
         <Grid item xs={4} sx={{ marginRight: '100px', marginLeft: '100px' }}>
           <Item>
             <Typography variant="p">
