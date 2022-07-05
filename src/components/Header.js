@@ -54,8 +54,8 @@ function Header(props) {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <Link href={`/${item}`}>
-            <ListItem key={item}>
+          <Link key={item} href={`/${item}`}>
+            <ListItem>
               <ListItemButton>
                 <ListItemText primary={item} />
               </ListItemButton>

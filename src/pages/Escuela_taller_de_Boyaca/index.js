@@ -6,7 +6,7 @@ const Lenguas = () => {
   console.log('lenguas');
   return (
     <div>
-      <Image src={escuelaTallerBoyaca} />
+      <Image src={escuelaTallerBoyaca} alt="imagen escuela taller" />
     </div>
   );
 };

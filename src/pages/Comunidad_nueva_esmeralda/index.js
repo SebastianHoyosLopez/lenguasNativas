@@ -9,7 +9,6 @@ import SubMenu from '../../components/SubMenu';
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
-  textAlign: 'center',
   color: theme.palette.text.secondary,
   lineHeight: '30px',
   fontSize: '1.3rem',
