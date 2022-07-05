@@ -70,7 +70,7 @@ function Header(props) {
 
   return (
     <Box sx={{ display: 'flex' }}>
-      <AppBar component="nav" sx={{ background: "white" }}>
+      <AppBar component="nav" sx={{ background: 'white' }}>
         <Toolbar>
           <IconButton color="inherit" aria-label="open drawer" edge="start" onClick={handleDrawerToggle} sx={{ mr: 2, display: { sm: 'none' } }}>
             <AlignHorizontalLeftIcon />

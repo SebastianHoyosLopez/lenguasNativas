@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Institucional = () => {
-  return (
-    <div>Institucional</div>
-  )
-}
+  return <div>Institucional</div>;
+};
 
-export default Institucional
+export default Institucional;

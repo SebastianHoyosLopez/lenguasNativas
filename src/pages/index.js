@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import imagenPresentacion from '../../public/image/portadaHome.png';
-import { Grid, Paper, styled, Typography } from '@mui/material';
+import { Paper, styled, Typography } from '@mui/material';
 
 const PortHome = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -16,7 +16,7 @@ const AboutSchool = () => {
   return (
     <>
       <div>
-        <Typography variant="h1" sx={{ color: "white", position: 'absolute', zIndex: "1", width: "100%", marginTop: "80px", marginLeft: "2rem" }}>
+        <Typography variant="h1" sx={{ color: 'white', position: 'absolute', zIndex: '1', width: '100%', marginTop: '80px', marginLeft: '2rem' }}>
           Lenguas nativas
         </Typography>
         <div>
@@ -26,5 +26,4 @@ const AboutSchool = () => {
     </>
   );
 };
-
 export default AboutSchool;
