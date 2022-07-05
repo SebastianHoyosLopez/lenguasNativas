@@ -36,7 +36,7 @@ import Button from '@mui/material/Button';
 import AlignHorizontalLeftIcon from '@mui/icons-material/AlignHorizontalLeft';
 
 const drawerWidth = 240;
-const navItems = ['Institucional', 'Escuela taller de Boyaca', 'Comunidad nueva escuela', 'Cabildo capiul', 'Proceso taller escuela'];
+const navItems = ['Institucional', 'Escuela_taller_de_Boyaca', 'Comunidad_nueva_esmeralda', 'Cabildo capiul', 'Galeria'];
 
 function Header(props) {
   const { window } = props;
@@ -49,7 +49,7 @@ function Header(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        Escuela Taller
       </Typography>
       <Divider />
       <List>
@@ -70,7 +70,7 @@ function Header(props) {
 
   return (
     <Box sx={{ display: 'flex' }}>
-      <AppBar component="nav" sx={{ background: 'linear-gradient(90deg, rgba(238,240,160,1) 0%, rgba(219,210,125,0.9668242296918768) 32%);' }}>
+      <AppBar component="nav" sx={{ background: "white" }}>
         <Toolbar>
           <IconButton color="inherit" aria-label="open drawer" edge="start" onClick={handleDrawerToggle} sx={{ mr: 2, display: { sm: 'none' } }}>
             <AlignHorizontalLeftIcon />

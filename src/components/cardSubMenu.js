@@ -8,22 +8,31 @@ import Typography from '@mui/material/Typography';
 
 
 
-export default function MediaCard({image,title,body}) {
+export default function MediaCard({ image, title, body }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
-        <Image src={image} alt="Imagen presentación" />
-     
+      <div>
+        <Image
+          height={800}
+          width={800}
+          objectFit="cover"
+          quality={100} src={image} alt="Imagen presentación" />
+      </div>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-        {body}
+        <Typography
+          variant="body2"
+          color="text.secondary"
+          noWrap
+        >
+          {body}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+      <CardActions >
+        <Button sx={{ color: "black" }} size="small">Share</Button>
+        <Button sx={{ color: "black" }} size="small">Learn More</Button>
       </CardActions>
     </Card>
   );
