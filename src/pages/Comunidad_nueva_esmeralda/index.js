@@ -14,7 +14,6 @@ const Item = styled(Paper)(({ theme }) => ({
   fontSize: '1.3rem',
   padding: '1rem 2rem 0 2rem',
   textAlign: 'justify',
-  //background: `linear-gradient(90deg, rgba(184,184,184,0.5) 0%, rgba(240,240,240,0.9668242296918768) 32%);`,
 }));
 
 const Institucional = () => {
