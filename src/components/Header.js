@@ -34,7 +34,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import AlignHorizontalLeftIcon from '@mui/icons-material/AlignHorizontalLeft';
-import logo from "../../public/image/logoMenu.png"
+import logo from '../../public/image/logoMenu.png';
 import Image from 'next/image';
 
 const drawerWidth = 240;
@@ -50,7 +50,6 @@ function Header(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-
       <IconButton color="inherit" aria-label="open drawer" edge="start" onClick={handleDrawerToggle} sx={{ mr: 2, display: { sm: 'none' } }}>
         <AlignHorizontalLeftIcon />
       </IconButton>

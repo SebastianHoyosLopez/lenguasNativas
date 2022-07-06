@@ -53,11 +53,11 @@ const Institucional = () => {
               medida del cultivo de la chagra, de la pesca y de la caza de animales silvestres. En la comunidad también hay una escuela de educación básica primaria, en donde los niños del poblado
               pueden cursar hasta el grado quinto. En esta comunidad se diseñó y ofertó un Taller Escuela que contempló sesiones de transmisión de historias y de conocimientos tradicionales sobre la
               lengua píínemuna, mediante la enseñanza acerca de oficios ligados a la maloca o baaja y la chagra o umihe. Estas sesiones fueron lideradas por la maestra-sabedora Balvina Yacob Imis,
-              hablante de píínemuna desde su niñez. La metodología de estas sesiones de trabajo se ha fundado en el principio "Aprender haciendo". Por eso, antes de iniciar propiamente las actividades
-              formativas, se adelantó también una “minga” para reparar el techo de la maloca, en la cual participaron los miembros masculinos de la comunidad, jóvenes y adultos. Luego, se estudió
-              detalladamente el alfabeto para identificar las particularidades fonológicas de lengua píínemuna, haciendo énfasis en ejercicios de pronunciación. Y, en tercer lugar, se abordaron los
-              conocimientos ligados a los oficios de la maloca y de la chagra, que siempre iban acompañados de actividades prácticas, de visitas y observaciones guiadas, y de ejercicios de
-              investigación con sabedores tradicionales. Se había previsto trabajar además con cantos tradicionales en lengua píínemuna, pero el límite de tiempo impidió llegar a este núcleo de
+              hablante de píínemuna desde su niñez. La metodología de estas sesiones de trabajo se ha fundado en el principio &quot;Aprender haciendo&quot;. Por eso, antes de iniciar propiamente las
+              actividades formativas, se adelantó también una “minga” para reparar el techo de la maloca, en la cual participaron los miembros masculinos de la comunidad, jóvenes y adultos. Luego, se
+              estudió detalladamente el alfabeto para identificar las particularidades fonológicas de lengua píínemuna, haciendo énfasis en ejercicios de pronunciación. Y, en tercer lugar, se
+              abordaron los conocimientos ligados a los oficios de la maloca y de la chagra, que siempre iban acompañados de actividades prácticas, de visitas y observaciones guiadas, y de ejercicios
+              de investigación con sabedores tradicionales. Se había previsto trabajar además con cantos tradicionales en lengua píínemuna, pero el límite de tiempo impidió llegar a este núcleo de
               formación. Saberes y oficios abordados en el Taller Escuela La lengua píínemuna (o bora) es una de las veintiún familias lingüísticas nativas existentes en territorio colombiano.
               Landaburu la ubica en el grupo de lenguas de “proyección regional” en Sudamérica, junto con las familias uitoto (con la que ha sido emparentada por algunos lingüistas), tukano,
               macú-puinave, sáliva-piaroa, guahibo, chocó y barbacoa (Landaburu, 2004-5, p. 7). El pueblo píínemuna hace parte de un complejo cultural llamado “Gente de Centro”, al lado de los pueblos
