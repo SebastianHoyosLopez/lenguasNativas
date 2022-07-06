@@ -35,7 +35,7 @@ const Lenguas = () => {
       <div>
         <Image src={escuelaTallerBoyaca} alt="imagen escuela taller" />
       </div>
-      <Box sx={{ padding: "3rem", textAlign: "justify"}}>
+      <Box sx={{ padding: '3rem', textAlign: 'justify' }}>
         <Typography variant="p" fontSize={25}>
           Se caracteriza por su enfoque en la diferencia que permite, con la metodología aprender haciendo, la implementación de proyectos sustentables y productivos para el desarrollo económico de
           las regiones. La Fundación Escuela Taller de Boyacá tiene como objetivos promover procesos para la creación de sentidos de vida desde la cultura de paz, contribuir al sostenimiento económico
