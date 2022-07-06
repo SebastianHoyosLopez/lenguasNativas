@@ -27,8 +27,8 @@ const AboutSchool = () => {
           }}
         >
           <Typography variant="h1">Lenguas nativas</Typography>
-          <div style={{ textAlign: 'justify', marginLeft: '10rem', background: 'black', opacity: 0.5 }}>
-            <Typography variant="p" fontSize={20}>
+          <div style={{ textAlign: 'justify', marginLeft: '10rem', background: 'black', opacity: 0.5, marginTop: "6rem" }}>
+            <Typography variant="p" fontSize={30}>
               Esta página web es resultado de dos proyectos de revitalización lingüística realizados en el departamento de Amazonas, bajo la asesoría de la Escuela Taller de Boyacá y el apoyo de las
               direcciones de Poblaciones y de Patrimonio del Ministerio de Cultura. La página contiene informaciones recogidas entre los meses de diciembre de 2021 y abril de 2022 en dos lugares
               diferentes: en la Comunidad píínemuna (bora) de Nueva Esmeralda (localizada en el curso inferior del río Igaraparaná), y en el Cabildo de Pueblos Indígenas Unidos de Leticia, Capiul,

@@ -34,6 +34,8 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import AlignHorizontalLeftIcon from '@mui/icons-material/AlignHorizontalLeft';
+import logo from "../../public/image/logoMenu.png"
+import Image from 'next/image';
 
 const drawerWidth = 240;
 const navItems = ['Institucional', 'Escuela_taller_de_Boyaca', 'Comunidad_nueva_esmeralda', 'Cabildo capiul', 'Galeria'];
@@ -48,6 +50,10 @@ function Header(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+
+      <IconButton color="inherit" aria-label="open drawer" edge="start" onClick={handleDrawerToggle} sx={{ mr: 2, display: { sm: 'none' } }}>
+        <AlignHorizontalLeftIcon />
+      </IconButton>
       <Typography variant="h6" sx={{ my: 2 }}>
         Escuela Taller
       </Typography>
@@ -72,12 +78,9 @@ function Header(props) {
     <Box sx={{ display: 'flex' }}>
       <AppBar component="nav" sx={{ background: 'white' }}>
         <Toolbar>
-          <IconButton color="inherit" aria-label="open drawer" edge="start" onClick={handleDrawerToggle} sx={{ mr: 2, display: { sm: 'none' } }}>
-            <AlignHorizontalLeftIcon />
-          </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block', color: 'black' } }}>
-            Escuela Taller
-          </Typography>
+          <div>
+            <Image src={logo} alt="logo menu" height={70} width={70} />
+          </div>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Button key={item} sx={{ color: 'black' }}>

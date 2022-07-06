@@ -53,7 +53,7 @@ const Institucional = () => {
               medida del cultivo de la chagra, de la pesca y de la caza de animales silvestres. En la comunidad también hay una escuela de educación básica primaria, en donde los niños del poblado
               pueden cursar hasta el grado quinto. En esta comunidad se diseñó y ofertó un Taller Escuela que contempló sesiones de transmisión de historias y de conocimientos tradicionales sobre la
               lengua píínemuna, mediante la enseñanza acerca de oficios ligados a la maloca o baaja y la chagra o umihe. Estas sesiones fueron lideradas por la maestra-sabedora Balvina Yacob Imis,
-              {/* hablante de píínemuna desde su niñez. La metodología de estas sesiones de trabajo se ha fundado en el principio "Aprender haciendo". Por eso, antes de iniciar propiamente las actividades */}
+              hablante de píínemuna desde su niñez. La metodología de estas sesiones de trabajo se ha fundado en el principio "Aprender haciendo". Por eso, antes de iniciar propiamente las actividades
               formativas, se adelantó también una “minga” para reparar el techo de la maloca, en la cual participaron los miembros masculinos de la comunidad, jóvenes y adultos. Luego, se estudió
               detalladamente el alfabeto para identificar las particularidades fonológicas de lengua píínemuna, haciendo énfasis en ejercicios de pronunciación. Y, en tercer lugar, se abordaron los
               conocimientos ligados a los oficios de la maloca y de la chagra, que siempre iban acompañados de actividades prácticas, de visitas y observaciones guiadas, y de ejercicios de
