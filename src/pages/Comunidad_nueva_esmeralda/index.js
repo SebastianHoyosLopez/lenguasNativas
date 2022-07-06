@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import imagenPresentacion from '../../../public/image/nuevaEsmeralda.jpg';
 import { Grid, Paper, styled, Typography } from '@mui/material';
-import CardSubMenu from '../../components/cardSubMenu.js';
+import CardSubMenu from '../../components/CardSubMenu.js';
 import presentacion from '../../../public/image/presentacion.jpg';
 import saberes from '../../../public/image/saberes.jpg';
 import SubMenu from '../../components/SubMenu';

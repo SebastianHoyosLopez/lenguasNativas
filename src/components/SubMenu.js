@@ -89,7 +89,6 @@ export default function SubMenu() {
             <Typography noWrap> 25, 27 y 29 de abril</Typography>
           </ListItemText>
         </MenuItem>
-
         <Divider />
         <MenuItem>
           <ListItemText>Museo Vivo</ListItemText>
