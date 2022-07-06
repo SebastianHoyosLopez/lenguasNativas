@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import imagenPresentacion from '../../public/image/portadaHome.png';
+import imagenPresentacion from '../public/image/portadaHome.png';
 import { Typography } from '@mui/material';
 
 // const PortHome = styled(Paper)(({ theme }) => ({

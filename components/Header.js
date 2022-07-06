@@ -34,7 +34,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import AlignHorizontalLeftIcon from '@mui/icons-material/AlignHorizontalLeft';
-import logo from '../../public/image/logoMenu.png';
+import logo from '../public/image/logoMenu.png';
 import Image from 'next/image';
 
 const drawerWidth = 240;

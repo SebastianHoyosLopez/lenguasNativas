@@ -1,7 +1,7 @@
 import { Box, Typography } from '@mui/material';
 import Image from 'next/image';
 import React from 'react';
-import logoETColombia from '../../../public/image/logo de etColombia.png';
+import logoETColombia from '../../public/image/logo de etColombia.png';
 
 const Institucional = () => {
   return (

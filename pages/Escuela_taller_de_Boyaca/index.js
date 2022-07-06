@@ -1,7 +1,7 @@
 import { Typography, Box } from '@mui/material';
 import Image from 'next/image';
 import React from 'react';
-import escuelaTallerBoyaca from '../../../public/image/Escuela taller de Boyacá imagen.jpg';
+import escuelaTallerBoyaca from '../../public/image/Escuela taller de Boyacá imagen.jpg';
 
 const Lenguas = () => {
   console.log('lenguas');
