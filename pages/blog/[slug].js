@@ -3,27 +3,30 @@ import path from 'path'
 import matter from 'gray-matter'
 import marked from 'marked'
 import Link from 'next/link'
+import { Grid } from '@mui/material'
 
 export default function PostPage({
   frontmatter: { title, date, cover_image },
   slug,
   content,
 }) {
+  console.log(slug)
+  
   return (
-    <>
+    <Grid container sx={{ display: 'flex', marginTop: '50px', padding: '0 8rem 0 8rem' }}>
       <Link href='/'>
         <a className='btn btn-back'>Go Back</a>
       </Link>
       <div className='card card-page'>
         <h1 className='post-title'>{title}</h1>
-        <div className='post-date'>Posted on {date}</div>
+        <div className='post-date'>Publicado en {date}</div>
         <img src={cover_image} alt='' />
         <div className='post-body'>
-          {/* <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div> */}
+          <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
           <div>{content}</div>
         </div>
       </div>
-    </>
+    </Grid>
   )
 }
 
