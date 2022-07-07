@@ -1,9 +1,9 @@
 import { Box } from '@mui/material';
 import Image from 'next/image';
 import React from 'react';
-import tallerEscuela from '../public/image/Logo Escuela - copia.png';
-import ministerio from '../public/image/Logo Mincultura PNG.png';
-import talleresEscuela from '../public/image/logo de etColombia.png';
+import tallerEscuela from '../../public/image/Logo Escuela - copia.png';
+import ministerio from '../../public/image/Logo Mincultura PNG.png';
+import talleresEscuela from '../../public/image/logo de etColombia.png';
 
 const Footer = () => {
   return (
