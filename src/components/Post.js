@@ -1,15 +1,13 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function Post({ post }) {
-  
   return (
-    <div className='card'>
-    
+    <div className="card">
       <h3>{post.frontmatter.title}</h3>
-      <p >{post.frontmatter.excerpt}</p>
+      <p>{post.frontmatter.excerpt}</p>
       <Link href={`/blog/${post.slug}`}>
-        <a className='btn'>Leer mas</a>
+        <p>Leer mas</p>
       </Link>
     </div>
-  )
+  );
 }
