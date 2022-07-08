@@ -1,6 +1,6 @@
 ---
 title: 'CONTENIDO DEL TALLER ESCUELA'
-date: 'March 5, 2021'
+date: 'CONTENIDO DEL TALLER ESCUELA'
 excerpt: 'El taller escuela se abre con una armonización ritual (una “quema de incienso” y de “ají”) liderada por el jefe de la maloca don Luis Rimabake para propiciar el buen camino de las actividades formativas. Posteriormente, se comenzó con la primera sesión del núcleo de lengua píínemuna, dedicado al estudio de los sonidos vocálicos.'
 cover_image: '/images/posts/img3.jpg'
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'sesion # 6'
-date: 'March 12, 2021'
+date: 'Sesiones del 1, 4, 6 y 8 de abril'
 excerpt: 'Sesiones del 1, 4, 6 y 8 de abril estudio de los nombres de los animales trepadores y terrestres (*iame*) y de las aves (*wahpehte*)'
 cover_image: '/images/posts/img7.jpg'
 ---

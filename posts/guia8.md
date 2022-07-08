@@ -1,7 +1,7 @@
 ---
 title: 'sesion # 8'
-date: 'March 12, 2021'
-excerpt: 'Sesiones del 18, 20 y 22 de abrill se realizó un repaso de este tema trabajado anteriormente con el fin de fortalecerlo y así pasar a identificar los términos relativos al parentesco familiar”'
+date: 'Sesiones del 18, 20 y 22 de abril'
+excerpt: 'Sesiones del 18, 20 y 22 de abril se realizó un repaso de este tema trabajado anteriormente con el fin de fortalecerlo y así pasar a identificar los términos relativos al parentesco familiar”'
 cover_image: '/images/posts/img7.jpg'
 ---
 **Sesiones del 18, 20 y 22 de abril**

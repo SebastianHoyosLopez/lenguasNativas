@@ -1,6 +1,6 @@
 ---
 title: 'sesion # 5'
-date: 'March 5, 2021'
+date: 'Sesiones del 28 y 30 de marzo'
 excerpt: 'Sesiones del 28 y 30 de marzo Durante esta semana se revisan los contenidos consignados en los cuadernos mediante actividades lúdicas con los aprendices'
 cover_image: '/images/posts/img2.jpg'
 ---

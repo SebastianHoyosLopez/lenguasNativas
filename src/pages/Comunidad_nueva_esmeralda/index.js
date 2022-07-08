@@ -1,14 +1,45 @@
-import React from 'react';
 import Image from 'next/image';
 import imagenPresentacion from '../../../public/image/nuevaEsmeralda.jpg';
 import { Grid } from '@mui/material';
 import CardSubMenu from '../../components/CardSubMenu.js';
 import presentacion from '../../../public/image/presentacion.jpg';
 import saberes from '../../../public/image/saberes.jpg';
-import SubMenu from '../../components/SubMenu';
 import GaleryMuseoVIvo from './GaleryMuseoVIvo';
 
-const Institucional = () => {
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import Post from '../../components/Post';
+import { sortByDate } from '../../utils/';
+
+export async function getStaticProps() {
+  // Get files from the posts dir
+  const files = fs.readdirSync(path.join('posts'));
+
+  // Get slug and frontmatter from posts
+  const posts = files.map((filename) => {
+    // Create slug
+    const slug = filename.replace('.md', '');
+
+    // Get frontmatter
+    const markdownWithMeta = fs.readFileSync(path.join('posts', filename), 'utf-8');
+
+    const { data: frontmatter } = matter(markdownWithMeta);
+
+    return {
+      slug,
+      frontmatter,
+    };
+  });
+
+  return {
+    props: {
+      posts: posts.sort(sortByDate),
+    },
+  };
+}
+
+const index = ({ posts }) => {
   return (
     <div>
       <Grid container sx={{ display: 'flex', marginTop: '50px', padding: '0 8rem 0 8rem' }}>
@@ -33,11 +64,15 @@ const Institucional = () => {
           <GaleryMuseoVIvo />
         </Grid>
         <Grid item xs={4} sx={{ padding: '1rem' }}>
-          <SubMenu />
+          <div className="posts">
+            {posts.map((post, index) => (
+              <Post key={index} post={post} />
+            ))}
+          </div>
         </Grid>
       </Grid>
     </div>
   );
 };
 
-export default Institucional;
+export default index;

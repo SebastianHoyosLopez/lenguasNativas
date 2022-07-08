@@ -1,6 +1,6 @@
 ---
 title: 'sesion # 7'
-date: 'March 12, 2021'
+date: 'Sesiones del 11, 13 y 15 de abril'
 excerpt: 'Sesiones del 11, 13 y 15 de abril Se estudiaron los nombres de los elementos, partes e instrumentos de la *eemuja* o “casa de formación”'
 cover_image: '/images/posts/img7.jpg'
 ---

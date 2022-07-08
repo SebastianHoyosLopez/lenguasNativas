@@ -1,6 +1,6 @@
 ---
 title: 'sesion # 4'
-date: 'March 8, 2021'
+date: 'Sesiones del 21, 23 y 25 de marzo'
 excerpt: 'Sesiones del 21, 23 y 25 de marzo Para esta semana se tiene preparada una salida de campo con los aprendices al espacio de la chagra'
 cover_image: '/images/posts/img5.jpg'
 ---

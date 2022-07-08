@@ -1,6 +1,6 @@
 ---
 title: 'sesion # 9'
-date: 'March 12, 2021'
+date: 'Sesiones del 25, 27 y 29 de abril'
 excerpt: 'Sesiones del 25, 27 y 29 de abril Durante esta semana se trabajaron los prefijos y los sufijos en la lengua Píínemunaa. Se adelantaron pesquisas con los sabedores de la comunidad acerca de este tema.'
 cover_image: '/images/posts/img7.jpg'
 ---

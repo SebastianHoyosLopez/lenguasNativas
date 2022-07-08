@@ -1,6 +1,6 @@
 ---
 title: 'Presentación'
-date: 'March 5, 2021'
+date: 'Presentación'
 excerpt: 'El Taller Escuela para la Salvaguarda de la lengua bora llevado a cabo en la Comunidad Nueva Esmeralda'
 cover_image: '/images/posts/img3.jpg'
 ---

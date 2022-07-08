@@ -8,8 +8,8 @@ import { Grid } from '@mui/material';
 export default function PostPage({ frontmatter: { title, date }, content }) {
   return (
     <Grid container sx={{ display: 'flex', marginTop: '50px', padding: '0 8rem 0 8rem' }}>
-      <Link href="/">
-        <p>Go Back</p>
+      <Link href="/Comunidad_nueva_esmeralda">
+        <p>Regresar</p>
       </Link>
       <div className="card card-page">
         <h1 className="post-title">{title}</h1>
