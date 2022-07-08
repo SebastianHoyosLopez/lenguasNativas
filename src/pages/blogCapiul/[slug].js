@@ -8,7 +8,7 @@ import { Grid, Button } from '@mui/material';
 export default function PostPage({ frontmatter: { title, date }, content }) {
   return (
     <Grid container sx={{ display: 'flex', marginTop: '50px', padding: '0 8rem 0 8rem' }}>
-      <Link href="/Comunidad_nueva_esmeralda">
+      <Link href="/Cabildo_capiul">
         <Button>Regresar</Button>
       </Link>
       <div className="card card-page">

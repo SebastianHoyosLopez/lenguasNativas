@@ -5,8 +5,9 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Link from 'next/link';
 
-export default function MediaCard({ image, title, body }) {
+export default function MediaCard({ image, title, body, posts }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <div>
@@ -21,12 +22,9 @@ export default function MediaCard({ image, title, body }) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button sx={{ color: 'black' }} size="small">
-          Share
-        </Button>
-        <Button sx={{ color: 'black' }} size="small">
-          Learn More
-        </Button>
+        <Link href={`${posts}`}>
+          <Button>Leer mas</Button>
+        </Link>
       </CardActions>
     </Card>
   );

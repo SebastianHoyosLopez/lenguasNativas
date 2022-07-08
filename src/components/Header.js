@@ -11,7 +11,7 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 
-const pages = ['Institucional', 'Escuela_taller_de_Boyaca', 'Comunidad_nueva_esmeralda', 'Cabildo capiul', 'Galeria'];
+const pages = ['Institucional', 'Escuela_taller_de_Boyaca', 'Comunidad_nueva_esmeralda', 'Cabildo_capiul', 'Galeria'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
