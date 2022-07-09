@@ -2,9 +2,7 @@ import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-import IconButton from '@mui/material/IconButton';
-import InfoIcon from '@mui/icons-material/Info';
-import { Grid, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 import Link from 'next/link';
 
 export default function TitlebarImageList() {
@@ -20,14 +18,11 @@ export default function TitlebarImageList() {
         </Typography>
       </div>
       <ImageList sx={{ width: 700, height: '1200px' }}>
-        {itemDataCarana.map((item) => (
-          <Link href={`/Comunidad_nueva_esmeralda/[id]`} as={`/Comunidad_nueva_esmeralda/${item.id}`}>
-            <ImageListItem key={item.img} sx={{ cursor: "pointer" }}>
+        {itemDataCarana.map((item, index) => (
+          <Link key={index} href={`/Comunidad_nueva_esmeralda/[id]`} as={`/Comunidad_nueva_esmeralda/${item.id}`}>
+            <ImageListItem sx={{ cursor: 'pointer' }}>
               <img src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-              <ImageListItemBar
-                title={item.title}
-                subtitle={item.author}
-              />
+              <ImageListItemBar title={item.title} subtitle={item.author} />
             </ImageListItem>
           </Link>
         ))}
@@ -40,14 +35,11 @@ export default function TitlebarImageList() {
         <Typography variant="p">A continuación se incluyen fotografías exteriores e interiores de la maloca y de los diferentes elementos empleados en ella.</Typography>
       </div>
       <ImageList sx={{ width: 700, height: '1200px' }}>
-        {itemDataMaloca.map((item) => (
-          <Link href={`/Comunidad_nueva_esmeralda/[id]`} as={`/Comunidad_nueva_esmeralda/${item.id}`}>
-            <ImageListItem key={item.img} sx={{ cursor: "pointer" }}>
+        {itemDataMaloca.map((item, index) => (
+          <Link key={index} href={`/Comunidad_nueva_esmeralda/[id]`} as={`/Comunidad_nueva_esmeralda/${item.id}`}>
+            <ImageListItem key={item.img} sx={{ cursor: 'pointer' }}>
               <img src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-              <ImageListItemBar
-                title={item.title}
-                subtitle={item.author}
-              />
+              <ImageListItemBar title={item.title} subtitle={item.author} />
             </ImageListItem>
           </Link>
         ))}
@@ -129,7 +121,6 @@ const itemDataCarana = [
     author: 'Museo vivo',
   },
 ];
-
 
 const itemDataMaloca = [
   {

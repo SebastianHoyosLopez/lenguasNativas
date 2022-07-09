@@ -8,11 +8,11 @@ export default function ImgMuseoVivo() {
   const id = router.query.id - 1;
   return (
     <>
-      <Card sx={{ maxWidth: "100%", textAlign: 'center'}}>
+      <Card>
         <div style={{ textAlign: 'center' }}>
           <img style={{ height: '400px', width: '400px', objectFit: 'cover' }} src={itemDataCarana[id].img} alt="Imagen presentación" />
         </div>
-        <CardContent>
+        <CardContent sx={{ textAlign: 'center' }}>
           <Typography gutterBottom variant="h6" component="div">
             {itemDataCarana[id].author}
           </Typography>
