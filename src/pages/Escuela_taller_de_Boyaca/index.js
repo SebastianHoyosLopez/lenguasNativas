@@ -13,7 +13,7 @@ const Lenguas = () => {
           position: 'absolute',
           zIndex: '1',
           width: '45%',
-          marginTop: '20rem',
+          marginTop: '24rem',
           marginLeft: '5rem',
           textAlign: 'justify',
           background: '#B78A81',
@@ -32,9 +32,9 @@ const Lenguas = () => {
           y salvaguarda del patrimonio. */}
         </Typography>
       </Box>
-      <div>
+      <Box sx={{ marginTop: '-6rem' }}>
         <Image src={escuelaTallerBoyaca} alt="imagen escuela taller" />
-      </div>
+      </Box>
       <Box sx={{ padding: '3rem', textAlign: 'justify' }}>
         <Typography variant="p" fontSize={25}>
           Se caracteriza por su enfoque en la diferencia que permite, con la metodología aprender haciendo, la implementación de proyectos sustentables y productivos para el desarrollo económico de
