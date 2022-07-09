@@ -43,7 +43,7 @@ const index = ({ posts }) => {
   return (
     <div>
       <Grid container sx={{ display: 'flex', marginTop: '50px', padding: '0 8rem 0 8rem' }}>
-        <Grid item xs={12} sx={{ marginBottom: '5rem' }}>
+        <Grid item xs={12} sx={{ marginBottom: '5rem', boxShadow: '0 4px 8px 0 rgba(0, 0.2, 0, 0.2)' }}>
           <Image src={imagenPresentacion} alt="Imagen presentación" height={1200} />
         </Grid>
         <Grid container direction="row" justifyContent="space-around" alignItems="center" xs={12}>
