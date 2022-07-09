@@ -21,7 +21,7 @@ export default function ImgMuseoVivo() {
           </Typography>
         </CardContent>
         <Link href="/Comunidad_nueva_esmeralda">
-          <Button sx={{ marginLeft: `${47}%` }}>Regresar</Button>
+          <Button>Regresar</Button>
         </Link>
       </Card>
     </>
