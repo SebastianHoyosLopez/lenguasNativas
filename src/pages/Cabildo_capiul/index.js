@@ -50,7 +50,7 @@ const index = ({ posts }) => {
           <CardSubMenu
             image={saberes}
             posts={'/blogCapiul/saberes-oficios'}
-            title={'Contenido del taller escuela'}
+            title={'Saberes y Oficios'}
             body={'La población miembro de CAPIUL se reconoce como perteneciente a 26 grupos étnicos, de al menos diez familias lingüísticas diferentes'}
           />
         </Grid>

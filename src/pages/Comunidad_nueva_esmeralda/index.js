@@ -48,15 +48,15 @@ const index = ({ posts }) => {
         </Grid>
         <Grid container direction="row" justifyContent="space-around" alignItems="center" xs={12}>
           <CardSubMenu
-            image={presentacion}
+            image={saberes}
             posts={'/blog/presentacion'}
             title={'Presentación'}
             body={'El Taller Escuela para la Salvaguarda de la lengua bora llevado a cabo en la Comunidad Nueva Esmeralda, bajo la coordinación de la Escuela Taller de Boyacá,'}
           />
           <CardSubMenu
-            image={saberes}
+            image={presentacion}
             posts={'/blog/saberes-oficios'}
-            title={'Contenido del taller escuela'}
+            title={'Saberes y Oficios'}
             body={
               'La lengua píínemuna (o bora) es una de las veintiún familias lingüísticas nativas existentes en territorio colombiano. Landaburu la ubica en el grupo de lenguas de “proyección regional” en Sudamérica'
             }
