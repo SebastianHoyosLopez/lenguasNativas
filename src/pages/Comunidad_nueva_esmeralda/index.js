@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import imagenPresentacion from '../../../public/image/portadaEsmeralda.jpg';
 
-import { Grid } from '@mui/material';
+import { Grid, Box, Typography } from '@mui/material';
 import CardSubMenu from '../../components/CardSubMenu.js';
 import presentacion from '../../../public/image/saberesEsmeralda.jpg';
 import saberes from '../../../public/image/saberes.jpg';
@@ -44,7 +44,29 @@ const index = ({ posts }) => {
     <div>
       <Grid container sx={{ display: 'flex', marginTop: '50px', padding: '0 8rem 0 8rem' }}>
         <Grid item xs={12} sx={{ marginBottom: '5rem', boxShadow: '0 4px 8px 0 rgba(0, 0.2, 0, 0.2)' }}>
-          <Image src={imagenPresentacion} alt="Imagen presentación" height={1200} />
+          <Box
+            sx={{
+              color: 'white',
+              position: 'absolute',
+              zIndex: '1',
+              width: '80%',
+              marginTop: '1rem',
+              marginLeft: '1rem',
+              textAlign: 'justify',
+              background: 'black',
+              opacity: 0.6,
+              padding: '1rem',
+            }}
+          >
+            <Typography variant="h4">El Taller Escuela para la Salvaguarda de la lengua bora</Typography>
+            <Typography variant="p" fontSize={25}>
+              llevado a cabo en la Comunidad Nueva Esmeralda.
+            </Typography>
+          </Box>
+          <Box>
+            {/* <Image src={escuelaTallerBoyaca} alt="imagen escuela taller" /> */}
+            <Image src={imagenPresentacion} alt="Imagen presentación" height={1200} />
+          </Box>
         </Grid>
         <Grid container direction="row" justifyContent="space-around" alignItems="center" xs={12}>
           <CardSubMenu
