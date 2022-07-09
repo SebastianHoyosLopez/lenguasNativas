@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import imagenPresentacion from '../../../public/image/portadaCapiul.jpg';
-import { Grid } from '@mui/material';
+import { Grid, Box, Typography } from '@mui/material';
 import CardSubMenu from '../../components/CardSubMenu.js';
 import presentacion from '../../../public/image/presentacionCapiul.jpg';
 import saberes from '../../../public/image/saberesCapiul.jpg';
@@ -41,9 +41,27 @@ export async function getStaticProps() {
 const index = ({ posts }) => {
   return (
     <div>
-      <Grid container sx={{ display: 'flex', marginTop: '50px', padding: '0 8rem 0 8rem' }}>
+      <Grid container sx={{ display: 'flex', padding: '0 8rem 0 8rem' }}>
         <Grid item xs={12} sx={{ marginBottom: '5rem', boxShadow: '0 4px 8px 0 rgba(0, 0.2, 0, 0.2)' }}>
-          <Image src={imagenPresentacion} alt="Imagen presentación" height={1200} />
+        <Box
+            sx={{
+              color: 'white',
+              position: 'absolute',
+              zIndex: '1',
+              width: '80%',
+              marginTop: '0rem',
+              marginLeft: '2rem',
+           
+              background: 'black',
+              opacity: 0.5,
+              //padding: '0rem 1rem 1rem 1rem',
+            }}
+          >
+            <Typography variant="h4">Lenguas originarias de los pueblos tikuna, múrui, miraña y yukuna</Typography>
+          </Box>
+          <Box>
+            <Image src={imagenPresentacion} alt="Imagen presentación" height={1200} />
+          </Box>
         </Grid>
         <Grid container direction="row" justifyContent="space-around" alignItems="center" xs={12}>
           <CardSubMenu image={presentacion} posts={'/blogCapiul/presentacion'} title={'Presentación'} body={'lenguas originarias de los pueblos tikuna, múrui, miraña y yukuna'} />

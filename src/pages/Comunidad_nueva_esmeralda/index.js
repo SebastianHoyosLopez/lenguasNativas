@@ -64,7 +64,6 @@ const index = ({ posts }) => {
             </Typography>
           </Box>
           <Box>
-            {/* <Image src={escuelaTallerBoyaca} alt="imagen escuela taller" /> */}
             <Image src={imagenPresentacion} alt="Imagen presentación" height={1200} />
           </Box>
         </Grid>
