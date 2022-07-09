@@ -5,6 +5,33 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 import IconButton from '@mui/material/IconButton';
 import InfoIcon from '@mui/icons-material/Info';
 import { Typography } from '@mui/material';
+import Image from 'next/image';
+import photo1 from '../../../public/image/galeriaNuevaEsmeralda/1.png';
+import photo2 from '../../../public/image/galeriaNuevaEsmeralda/2.png';
+import photo3 from '../../../public/image/galeriaNuevaEsmeralda/3.png';
+// import photo4 from '../../../public/image/galeriaNuevaEsmeralda/4.JPG';
+import photo5 from '../../../public/image/galeriaNuevaEsmeralda/5.JPG';
+import photo6 from '../../../public/image/galeriaNuevaEsmeralda/6.JPG';
+import photo7 from '../../../public/image/galeriaNuevaEsmeralda/7.JPG';
+import photo8 from '../../../public/image/galeriaNuevaEsmeralda/8.JPG';
+import photo9 from '../../../public/image/galeriaNuevaEsmeralda/9.JPG';
+import photo10 from '../../../public/image/galeriaNuevaEsmeralda/10.png';
+import photo11 from '../../../public/image/galeriaNuevaEsmeralda/11.png';
+import photo12 from '../../../public/image/galeriaNuevaEsmeralda/12.png';
+import photo13 from '../../../public/image/galeriaNuevaEsmeralda/13.jpg';
+import photo14 from '../../../public/image/galeriaNuevaEsmeralda/14.png';
+// import photo15 from "../../../public/image/galeriaNuevaEsmeralda/15.png"
+import photo16 from '../../../public/image/galeriaNuevaEsmeralda/16.JPG';
+import photo17 from '../../../public/image/galeriaNuevaEsmeralda/17.JPG';
+import photo18 from '../../../public/image/galeriaNuevaEsmeralda/18.JPG';
+import photo19 from '../../../public/image/galeriaNuevaEsmeralda/19.JPG';
+import photo20 from '../../../public/image/galeriaNuevaEsmeralda/20.JPG';
+import photo21 from '../../../public/image/galeriaNuevaEsmeralda/21.png';
+// import photo22 from "../../../public/image/galeriaNuevaEsmeralda/22.png"
+import photo23 from '../../../public/image/galeriaNuevaEsmeralda/23.JPG';
+import photo24 from '../../../public/image/galeriaNuevaEsmeralda/24.JPG';
+import photo25 from '../../../public/image/galeriaNuevaEsmeralda/25.png';
+import photo26 from '../../../public/image/galeriaNuevaEsmeralda/26.JPG';
 
 export default function TitlebarImageList() {
   return (
@@ -21,7 +48,7 @@ export default function TitlebarImageList() {
       <ImageList sx={{ width: 700, height: '1200px' }}>
         {itemDataCarana.map((item) => (
           <ImageListItem key={item.img}>
-            <img src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+            <Image src={item.img} width={248} height={248} srcSet={item.img} alt={item.title} loading="lazy" />
             <ImageListItemBar
               title={item.title}
               subtitle={item.author}
@@ -43,7 +70,7 @@ export default function TitlebarImageList() {
       <ImageList sx={{ width: 700, height: '1200px' }}>
         {itemDataMaloca.map((item) => (
           <ImageListItem key={item.img}>
-            <img src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+            <Image src={item.img} width={248} height={248} srcSet={item.img} alt={item.title} loading="lazy" />
             <ImageListItemBar
               title={item.title}
               subtitle={item.author}
@@ -62,7 +89,8 @@ export default function TitlebarImageList() {
 
 const itemDataCarana = [
   {
-    img: 'https://imgur.com/pQEP5t2.jpg',
+    id: 1,
+    img: photo1,
     title: 'Montaje de “peines” de hoja de caraná (vista exterior frontal).',
     author: 'Museo vivo',
     rows: 2,
@@ -70,30 +98,35 @@ const itemDataCarana = [
     featured: true,
   },
   {
-    img: 'https://imgur.com/J3Uh14v.jpg',
+    id: 2,
+    img: photo2,
     title: 'Montaje de “peines” de hojas de caraná (vista exterior lateral)',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/T1EL0nt.jpg',
+    id: 3,
+    img: photo3,
     title: 'Montaje de peines de hojas de caraná (vista exterior lateral).',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/DH1mdDj.jpg',
+    id: 4,
+    img: photo11,
     title: 'Vista interior de los tejidos de hojas de caraná.',
     author: 'Museo vivo',
     cols: 2,
   },
   {
-    img: 'https://imgur.com/d42lApt.jpg',
+    id: 5,
+    img: photo5,
     title:
       'Detalle del tejido de hojas de caraná con que se fabrican los techos de las malocas píínemuna. Esta forma de tejido en particular se llama omaytua (“pata de cucarrón”), aunque los tejidos en general pueden tener diversas formas, que se usan para “distraer” a los espíritus nocivos que ingresen a la maloca.',
     author: 'Museo vivo',
     cols: 2,
   },
   {
-    img: 'https://imgur.com/MgZXdtX.jpg',
+    id: 6,
+    img: photo6,
     title: 'Detalle del tejido ukume obiwa (“rabadilla de tintín”).',
     author: 'museo vivo',
     rows: 2,
@@ -101,24 +134,28 @@ const itemDataCarana = [
     featured: true,
   },
   {
-    img: 'https://imgur.com/bSOyiAW.jpg',
+    id: 7,
+    img: photo7,
     title: 'Detalle del tejido kikije niwa (alas de murciélago). ',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/K0bzwMi.jpg',
+    id: 8,
+    img: photo8,
     title: 'Detalle del tejido aákobií (peladura de culebra).',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/zHSiRMr.jpg',
+    id: 9,
+    img: photo9,
     title: 'Detalle del tejido íñiba mijkoo (costilla de camaleón)',
     author: 'Museo vivo',
     rows: 2,
     cols: 2,
   },
   {
-    img: 'https://imgur.com/oZCp8Tt.jpg',
+    id: 10,
+    img: photo10,
     title: 'Vista panorámica del tejido aákobií (peladura de culebra).',
     author: 'Museo vivo',
   },
@@ -126,7 +163,8 @@ const itemDataCarana = [
 
 const itemDataMaloca = [
   {
-    img: 'https://imgur.com/90Qd640.jpg',
+    id: 11,
+    img: photo11,
     title: 'Vista exterior lateral de la maloca de Nueva Esmeralda.',
     author: 'Museo vivo',
     rows: 2,
@@ -134,27 +172,32 @@ const itemDataMaloca = [
     featured: true,
   },
   {
-    img: 'https://imgur.com/Vt8HgKa.jpg',
+    id: 12,
+    img: photo12,
     title: 'Vista exterior de la maloca con “rompecalles’ o letrero identificador elaborado manualmente.',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/l0Dgin1.jpg',
+    id: 13,
+    img: photo13,
     title: 'Detalle del “rompecalles” o letrero identificador de la maloca.',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/6XQ5r4w.jpg',
+    id: 14,
+    img: photo14,
     title: 'Vista interior de la maloca de Nueva Esmeralda.',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/oQuoXaV.jpg',
+    id: 15,
+    img: photo17,
     title: 'Úllebá o tiesto de barro para tostar',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/XcGsUv2.jpg',
+    id: 16,
+    img: photo16,
     title: 'Wahraji o cernidor',
     author: 'Museo vivo',
     rows: 2,
@@ -162,52 +205,62 @@ const itemDataMaloca = [
     featured: true,
   },
   {
-    img: 'https://imgur.com/gNhSa4Q.jpg',
+    id: 17,
+    img: photo17,
     title: 'wahmiji o exprimidor de yuca grande.',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/JTEhtxy.jpg',
+    id: 18,
+    img: photo18,
     title: 'wapéjiwa o espátula para voltear el cazabe. ',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/TeQxisi.jpg',
+    id: 19,
+    img: photo19,
     title: 'kaniwa o machucador en forma de canoa.',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/93jNUUo.jpg',
+    id: 20,
+    img: photo20,
     title: 'Kaatsówa o rayador de yuca.',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/juvmu7x.jpg',
+    id: 21,
+    img: photo21,
     title: 'uberijchi o canasto.',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/S1Wu127.jpg',
+    id: 22,
+    img: photo23,
     title: 'Kanijko o pilón.',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/bFNhLCm.jpg',
+    id: 23,
+    img: photo23,
     title: 'kanui o machucador.',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/83I2W9O.jpg',
+    id: 24,
+    img: photo24,
     title: 'Wahjyábaba o bolsa de cernir coca.',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/3yDWzHA.jpg',
+    id: 25,
+    img: photo25,
     title: 'Mamuihki o aparador de tiestos y canastos.',
     author: 'Museo vivo',
   },
   {
-    img: 'https://imgur.com/NOAfrZt.jpg',
+    id: 26,
+    img: photo26,
     title: 'Kumunuboa o maguaré.',
     author: 'Museo vivo',
   },

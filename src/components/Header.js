@@ -11,7 +11,7 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 
-const pages = ['Institucional', 'Escuela_taller_de_Boyaca', 'Comunidad_nueva_esmeralda', 'Cabildo_capiul', 'Galeria'];
+const pages = ['Institucional', 'Escuela_taller_de_Boyaca', 'Comunidad_nueva_esmeralda', 'Cabildo_capiul'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -60,9 +60,11 @@ const ResponsiveAppBar = () => {
               }}
             >
               {pages.map((page) => (
-                <Button key={page} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'black', display: 'flex' }}>
-                  <Link href={`/${page}`}>{page}</Link>
-                </Button>
+                <Link key={page} href={`/${page}`}>
+                  <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'black', display: 'flex' }}>
+                    {page}
+                  </Button>
+                </Link>
               ))}
             </Menu>
           </Box>
@@ -79,9 +81,11 @@ const ResponsiveAppBar = () => {
           </Button>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'end' }}>
             {pages.map((page) => (
-              <Button key={page} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'black', display: 'block' }}>
-                <Link href={`/${page}`}>{page}</Link>
-              </Button>
+              <Link key={page} href={`/${page}`}>
+                <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'black', display: 'block' }}>
+                  {page}
+                </Button>
+              </Link>
             ))}
           </Box>
         </Toolbar>
