@@ -1,4 +1,4 @@
-import { Button, Card, CardContent, Typography } from '@mui/material';
+import { Card, CardContent, Typography } from '@mui/material';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
@@ -21,7 +21,9 @@ export default function ImgMuseoVivo() {
           </Typography>
         </CardContent>
         <Link href="/Comunidad_nueva_esmeralda">
-          <Button>Regresar</Button>
+          <Typography sx={{ cursor: 'pointer' }} align="center">
+            Regresar
+          </Typography>
         </Link>
       </Card>
     </>
