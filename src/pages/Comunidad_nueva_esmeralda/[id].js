@@ -20,11 +20,11 @@ export default function ImgMuseoVivo() {
             {itemDataCarana[id].title}
           </Typography>
         </CardContent>
-        <Link href="/Comunidad_nueva_esmeralda">
+        {/* <Link href="/Comunidad_nueva_esmeralda">
           <Typography sx={{ cursor: 'pointer' }} align="center">
             Regresar
           </Typography>
-        </Link>
+        </Link> */}
       </Card>
     </>
   );
