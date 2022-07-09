@@ -35,7 +35,7 @@ export default function ImgMuseoVivo() {
   const id = router.query.id - 1 || null;
   return (
     <>
-      {id > 0 && (
+      {id > 1 && (
         <>
           <Card sx={{ marginTop: '-5rem' }}>
             <div style={{ textAlign: 'center' }}>
@@ -132,15 +132,6 @@ const itemDataCarana = [
     img: photo10,
     title: 'Vista panorámica del tejido aákobií (peladura de culebra).',
     author: 'Museo vivo',
-  },
-  {
-    id: 11,
-    img: 'https://imgur.com/90Qd640.jpg',
-    title: 'Vista exterior lateral de la maloca de Nueva Esmeralda.',
-    author: 'Museo vivo',
-    rows: 2,
-    cols: 2,
-    featured: true,
   },
   {
     id: 11,
