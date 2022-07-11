@@ -5,7 +5,7 @@ excerpt: 'El taller escuela se abre con una armonización ritual (una “quema d
 cover_image: '/images/posts/img3.jpg'
 ---
 
-1. # **CONTENIDO DEL TALLER ESCUELA**
+
 *Seguimiento a aprendices*
 
 El proceso de formación contó con una duración de 36 sesiones (140 horas en total). Las sesiones se realizaron los lunes, miércoles y viernes, en jornadas de cuatro horas, de 8:00 am a 12:00 m. El plan de formación se estructuró en tres módulos, en el siguiente orden: 1) Fonología y vocabulario básico de la lengua p~~ií~~nemuna, con énfasis en el estudio del alfabeto (vocales y consonantes); 2) interacciones y situaciones básicas de la lengua p~~ií~~nemuna, con énfasis en el vocabulario de la maloca o *baaja* y de la chagra o *um~~i~~he*; 3) cantos de arrullo y de la fiesta *apújko*; para este último núcleo se recogieron cinco cantos durante el diseño del plan de formación, pero, como ya se dijo, no fue posible llevarlo a cabo por falta de tiempo. Cada núcleo temático del taller de lengua p~~íí~~nemuna se estimó de una duración aproximada de 12 sesiones (46 horas), las cuales suman 36 sesiones (140 horas) en la totalidad del curso. Lograron culminar y certificarse satisfactoriamente en la formación del taller escuela un total de 15 aprendices.

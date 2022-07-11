@@ -1,14 +1,10 @@
 ---
 title: 'Guía # 1'
-date: ' febrero 9 de 2022'
+date: ' Febrero 9 de 2022'
 excerpt: 'Taller Escuela en lengua *p~~ii~~nemuna* (bora)
 Comunidad Nueva Esmeralda (Amazonas)'
 cover_image: '/images/posts/img1.jpg'
 ---
-
-
-**Guía *#* 1**
-
 Taller Escuela en lengua *p~~ii~~nemuna* (bora)
 
 Comunidad Nueva Esmeralda (Amazonas), febrero 9 de 2022

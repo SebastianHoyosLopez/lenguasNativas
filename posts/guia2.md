@@ -1,14 +1,11 @@
 ---
 title: "Guía # 2"
-date: ' febrero 11 de 2022'
+date: ' Febrero 11 de 2022'
 excerpt: 'Taller escuela en lengua *p~~íí~~nemuna* (bora)
 
 Comunidad Nueva Esmeralda'
 cover_image: '/images/posts/img4.jpg'
 ---
-
-**Guía # 2**
-
 Taller escuela en lengua *p~~íí~~nemuna* (bora)
 
 Comunidad Nueva Esmeralda, febrero 11 de 2022
