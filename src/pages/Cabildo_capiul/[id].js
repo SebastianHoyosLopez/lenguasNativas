@@ -1,8 +1,7 @@
-import * as React from 'react';
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
-import ImageListItemBar from '@mui/material/ImageListItemBar';
-import { Typography } from '@mui/material';
+import React from 'react';
+import { Card, CardContent, Typography } from '@mui/material';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Image from 'next/image';
 import photoCapiul1 from '../../../public/image/museoVivoCapiul/photoCapiul1.png';
 import photoCapiul2 from '../../../public/image/museoVivoCapiul/photoCapiul12.png';
@@ -22,42 +21,35 @@ import photoCapiul15 from '../../../public/image/museoVivoCapiul/photoCapiul25.p
 import photoCapiul16 from '../../../public/image/museoVivoCapiul/photoCapiul26.png';
 import photoCapiul17 from '../../../public/image/museoVivoCapiul/photoCapiul27.png';
 import photoCapiul18 from '../../../public/image/museoVivoCapiul/photoCapiul28.jpg';
-// import Link from 'next/link';
 
-export default function TitlebarImageList() {
+export default function ImgMuseoVivo() {
+  const router = useRouter();
+  const id = router.query.id - 1 || null;
+  console.log(id);
   return (
     <>
-      <div style={{ padding: '0 2rem 2rem 0', textAlign: 'justify' }}>
-        <div>
-          <Typography variant="h4" align="center">
-            MUSEOS VIVOS
-          </Typography>
-        </div>
-        <div style={{ marginBottom: '1rem' }}>
-          <Typography variant="p" sx={{ textTransform: 'lowercase' }}>
-            MUESTRA FOTOGRÁFICA DE LOS OBJETOS CONFECCIONADOS PARA EL MUSEO VIVO DEL CABILDO DE PUEBLOS INDÍGENAS UNIDOS DE LETICIA (CAPIUL).
-          </Typography>
-        </div>
-        <Typography variant="p">
-          Los objetos aquí presentados son resultado del Taller Escuela en lenguas originarias de los pueblos magüta, múrui, miraña y yukuna del Cabildo de Pueblos Indígenas Unidos de Leticia -
-          Capiul, adelantado en Leticia, Amazonas. Estos objetos del Museo vivo fueron pensados como mediadores de la experiencia pedagógica propuesta en las sesiones de trabajo sobre la lengua. La
-          idea de constituir un Museo vivo parte del principio de que los objetos tradicionales no son remembranzas de un pasado olvidado, sino objetos dotados de espíritu, de palabra y de fuerza.
-          Para este Museo vivo cada maestro-sabedor ha elaborado o suministrado elementos significativos en los bailes trabajados durante las sesiones de lengua. Hay aquí muestras de atuendos rituales
-          de la fiesta de la pubertad de los magüta; una trampa para peces y otra para animales mencionadas en los cantos del baile de tumbar chagra del pueblo miraña; instrumentos para recoger y
-          procesar comidas indispensables para la fiesta de las frutas del pueblo múrui; y, por último, algunos elementos rituales usados para armonizar las energías convocadas durante la realización
-          de los bailes del pueblo yukuna.{' '}
-        </Typography>
-      </div>
-      <ImageList sx={{ width: 700, height: '1200px' }}>
-        {itemDataCapiul.map((item) => (
-          // <Link key={index} href="/Cabildo_capiul/[id]" as={`/cabildo_capiul/${item.id}`}>
-          <ImageListItem key={item.img} sx={{ cursor: 'pointer' }}>
-            <Image style={{ objectFit: 'cover' }} src={item.img} srcSet={item.img} width={248} height={248} alt={item.title} loading="lazy" />
-            <ImageListItemBar title={item.title} subtitle={item.author} />
-          </ImageListItem>
-          // </Link>
-        ))}
-      </ImageList>
+      {id !== null && (
+        <>
+          <Card sx={{ marginTop: '-5rem' }}>
+            <div style={{ textAlign: 'center' }}>
+              <Image height={400} width={400} style={{ objectFit: 'cover' }} src={itemDataCapiul[id].img} alt="Imagen presentación" />
+            </div>
+            <CardContent sx={{ textAlign: 'center' }}>
+              <Typography gutterBottom variant="h6" component="div">
+                {itemDataCapiul[id].author}
+              </Typography>
+              <Typography variant="p" color="text.secondary" noWrap>
+                {itemDataCapiul[id].title}
+              </Typography>
+            </CardContent>
+            <Link href="/Cabildo_capiul">
+              <Typography sx={{ cursor: 'pointer' }} align="center">
+                Regresar
+              </Typography>
+            </Link>
+          </Card>
+        </>
+      )}
     </>
   );
 }

@@ -35,7 +35,7 @@ export default function ImgMuseoVivo() {
   const id = router.query.id - 1 || null;
   return (
     <>
-      {id > 1 && (
+      {id !== null && (
         <>
           <Card sx={{ marginTop: '-5rem' }}>
             <div style={{ textAlign: 'center' }}>
@@ -63,7 +63,7 @@ export default function ImgMuseoVivo() {
 
 const itemDataCarana = [
   {
-    id: 1,
+    id: 11,
     img: photo1,
     title: 'Montaje de “peines” de hoja de caraná (vista exterior frontal).',
     author: 'Museo vivo',
