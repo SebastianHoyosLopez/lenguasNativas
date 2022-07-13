@@ -2,7 +2,6 @@
 title: 'Saberes y oficios abordados en el Taller Escuela'
 date: 'Saberes y oficios'
 excerpt: 'presentacion'
-cover_image: '/images/posts/img3.jpg'
 ---
 
 **Saber-oficio**

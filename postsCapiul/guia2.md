@@ -1,105 +1,63 @@
 ---
 title: "Guía # 2"
-date: ' febrero 11 de 2022'
-excerpt: 'Taller escuela en lengua *p~~íí~~nemuna* (bora)
-
-Comunidad Nueva Esmeralda'
-cover_image: '/images/posts/img4.jpg'
+date: 'Módulo múrui'
+excerpt: 'Módulo múrui'
 ---
 
-**Guía # 2**
+2. **Módulo múrui**
 
-Taller escuela en lengua *p~~íí~~nemuna* (bora)
+Los dos cantos del núcleo de lengua múrui pertenecen a la “Fiesta de las frutas” o `*yuak~~i~~ rafue*`, una de las cuatro grandes carreras ceremoniales o de baile practicadas dentro de este pueblo; las otras tres carreras son las de los bailes de `*Yadiko*` (o de tablón), de `*menizai*` (o de tortuga charapa) y de `z~~i~~kii` (o de las cañas de bambú). El abuelo `Fa~~i~~rirama` cuenta que el `*yuak~~i~~ rafue*` o baile de las frutas contiene, a su vez, cuatro variantes relacionadas con la forma de los atavíos rituales que deben llevar los invitados y con los repertorios de cantos que deben interpretar. En la variante `*ja~~i~~oa*` (o de las serpientes), por ejemplo, los invitados rituales llegan con palmas de chambira `(*ñekiro*)`; en la variante `*jimoma*`, con faldas de carguero; en la variante `*muinak~~i~~*`, los invitados hacen la entrada con varas; y finalmente, en la variante `muruik~~i~~`, arriban al baile con palmas de helecho `(*jokome*)`.   
 
-Comunidad Nueva Esmeralda, febrero 11 de 2022
+En lo que respecta al `*yuak~~i~~ rafue*`, el abuelo cuenta que el primer antepasado que hizo baile fue Zaierani. Este baile se realizó en su maloca porque él fue el primero que poseyó abundancia de alimentos, abundancia de frutas y de alimentos que se celebra justamente en este baile. Como resultado de este núcleo de lengua múrui se van a interpretar, pues, dos cantos de la variante `*muruik~~i~~*`, un canto de entrada un segundo canto de entrada. 
 
-**Objetivo**
+|<p>**Primer canto de entrada**</p><p>Coro</p><p>`Jichíchima jichíchima`</p><p>`ribeno ribeno`</p><p>`jai jai`</p><p>I</p><p>`Fuir~~i~~ rayama`</p><p>`Enukaremui`</p><p>`Noiye fuir~~i~~ feyairiii`</p><p>`Ribeno ribeno`</p><p>`Jai jai`</p><p>II</p><p>`Ar~~i~~ rayama`</p><p>`R~~i~~akaremui`</p><p>`Noiye fuir~~i~~feyariii`</p><p>`Ribeno ribeno`</p><p>`jai jai`</p><p></p>|
+| :-: |
+*Vocabulario de este canto* 
 
-Estudiar la pronunciación correcta de las vocales <o> y <u>, mediante ejercicios guiados. 
+`Ribeno`: sin traducción
 
-**Conducta de entrada** 
+`Jai jai`: Interjección común en los cantos 
 
-1. Repaso de las expresiones típicas ya aprendidas: forma de presentación, de saludar y de dar las gracias.
-1. Enseñanza de dos nuevas expresiones típicas: <wai dijkia>, usada para despedirse de una sola persona; por ejemplo, “chao” o “hasta luego, Gerardo”. Y <wai meikya>, empleada para despedirse de dos personas, equivalente a “chao” o “hasta luego [ustedes dos]”. 
+`Fuir~~i~~`: abajo (adverbio de lugar)
 
-**Actividad 1**
+`Feyairiii`: de `<feya~~i~~deite>` Estar destrozado, fracturado, roto
 
-Revisión del trabajo que quedó para la casa:
+Rayama: señor, dueño.
 
-1. Cada aprendiz pronunciará adecuadamente las palabras averiguadas en casa con sus parientes, las cuales deberán iniciar por las vocales <o> e <u>. De esta actividad resultó la siguiente lista:
+`Enukaremui`: “anguila”, en lenguaje ritual; en lenguaje común, la anguila se llama `<kañik~~i~~>`
 
-Con la vocal <o>
+Noiye: quebrada.
 
-<Oohúu> “pepa roja”. 
+`R~~i~~akaremui`: otro nombre ritual de la anguila.
 
-<Óonawa> “mafafa”.
+|<p>**Segundo canto de entrada**</p><p>**Canción de la espuma de la yuca madura**</p><p>I</p><p>`Muyeyeu muyeyeu jan~~ii~~`</p><p>`Muyeyeu jan~~ii~~ (2)`</p><p>`Muyeyeu muyeyei jan~~ii~~`</p><p>`Muyeyeu jan~~ii~~ (2)`</p><p></p><p>II</p><p>`Ana iye`</p><p>`nooiye`</p><p>`naaabuidariii`</p><p>`Muyeyeu jan~~ii~~ (2)`</p>|
+| :-: |
+*Vocabulario de este canto*
 
-<Óóv~~i~~j~~i~~> “umarí negro”.
+`Muyeyeu`: del verbo `<muyede>`, “espumar”.
 
-<Okáji> “danta” 
+`Muye`: espuma.
 
-<Ohtsar~~i~~j~~i~~> “mico pequeno”.
+`Jan~~ii~~`: adverbio así.
 
-<ov~~i~~ho> alacrán o escorpión. 
+`Ana`: abajo.
 
-<Óohtá> “silbar” 
+`Iye`: quebrada.
 
-<Ooraj~~i~~> “bejuco con que se amarra el techo de la maloca. 
+`Nooiye`: bañadero.
 
-<Tsójko> “nutria”. (Esta palabra no contiene la <o> al inicio, pero si en lugares intermedios.
+`Noide`: bañarse. 
 
-Con la vocal <u>
+`Nabuida`: lago o pozo (palabra mítica).
 
-<uúkúme> “tintín”.
+`Rii`: ahí.
 
-<Új~~i~~wa> “platanillo”. 
-
-<Uwaáj~~i~~> “hacha”.
-
-<Uujkowa> “pulga”.
-
-<Uujko> tigre de agua.
-
-<Úme> “sal de monte”.
+A continuación, abordamos los temas trabajados durante las sesiones del núcleo de lengua múrui. El abuelo nos informa que, siguiendo el plan curricular definido desde el inicio del taller escuela para cada uno de los núcleos, él se refirió en primer lugar a palabras de uso común como los saludos, las despedidas y los términos de parentesco. Para saludar, explica, se emplean expresiones como `*jabitikue*`: “hola”, literalmente “ya llegué”; `*itiomoi*`, “hola”, literalmente “ustedes están”. Para despedirse, la expresión típica es `*jaidikue*`, “hasta luego” o literalmente “me voy”, o `*jaijaidikue* `(duplicando la raíz verbal) para decir “ya me voy’. En lo que respecta a los términos de parentesco, el maestro-sabedor hizo la siguiente enumeración: 
 
 
+|<p>**Términos de parentesco**</p><p>Moooma = Padre</p><p>`Eiño` = madre</p><p>`Aama`= Hermano (del padre)</p><p>`Biyaima` = hermano (de la madre)</p><p>`uzungo` = abuela</p><p>`Uzuma` = abuelo</p><p>`Izo` = tío paterno</p><p>`miringo` = tía paterna</p><p>`Jito` = hija</p><p>`Jiza` = hija</p><p>`Mio` = nuera</p><p>`Jito-jito` = nieto</p><p>`Jiza-jiza` = nieta</p><p>`Eikango` = es la madrastra o la tía política.</p><p></p>|
+| :-: |
 
+El maestro-sabedor subraya, además, que durante las sesiones de trabajo con los aprendices hace mucho énfasis en la pronunciación adecuada de la vocal `~~i~~`, sonido vocálico típico del múrui e inexistente en español. Asimismo, nos comenta que los cantos enseñados a los aprendices pertenecen al llamado baile de las frutas o `*yuaki rafue*`, que se divide en cuatro variantes o tipos de cantos-danzados: 1) la variante `*muruiki*`, en que los invitados llegan con ramas de helecho `(*jokome*)`; la variante `*jaioa*`, en que los invitados llevan palmas de chambira (`*ñekore*)`; la variante `*jimoma*`, en que los invitados se atavían con faldas de carguero `(*jirife*)`; y la variante `*muinaki*`, en que los invitados entran con varas que luego son colocadas a un lado para iniciar una danza en que todos bailan entrelazados. 
 
-1. Cada estudiante exhibirá los dibujos o las ilustraciones realizadas a partir de las cuatro vocales estudiadas durante el primer encuentro, y pronunciará adecuadamente las palabras correspondientes a cada dibujo.
-
-**Actividad 2**
-
-Se continúa con el estudio de las vocales del alfabeto, en este día con las vocales <o> y <u>. (*Antes del inicio de esta actividad, desarrollada en la segunda parte del encuentro, el abuelo Luis Rimabake realiza una ofrenda propiciatoria con el fin de que las enseñanzas queden bien asentadas en el espíritu de cada aprendiz. En medio del mambeadero, enciende una bola de incienso aromático mezclado con frutos de ají, y luego pide a los aprendices que aspiren el humo, que salten sobre él o que lo hagan impregnar sus manos, frotándoselas*). Para la actividad con las vocales, es importante tener en cuenta que:
-
-1. la <o> es una vocal posterior redondeada, que puede ser larga o breve, y que su pronunciación es muy semejante a la vocal <o> del español. 
-1. La <u> es una vocal posterior alta, no redondeada, que también puede ser larga o breve. Conviene anotar, sin embargo, que la lengua *p~~íí~~nemuna* revela una cercanía acústica entre la vocal central alta <~~i~~> y la vocal posterior alta <u>. Ambas vocales se diferencian solamente porque esta última es más posterior que la primera. 
-
-*Lista de palabras para estudiar*
-
-**<o>**
-
-<Omáhu> “cucarrón mierdero”.
-
-<Ohba> “chigüiro”.
-
-<Oóma> “conmigo”.
-
-<Óorajih~~i~~uu> “bejuco para amarrar maloca”.
-
-**<u>**
-
-<Uúba> “gusano nuche”.
-
-<Uwájllój~~i~~ “bacurau”.
-
-<Uwaj~~i~~mu> “hormiga hachera o cabeciroja”.
-
-<Uúmaha> “Contigo” o “con usted”. 
-
-En relación con el <uwájllój~~i~~> (“bacurau”), el abuelo Luis cuenta a los aprendices el motivo por el cual este animal siempre está solitario en el monte. Resulta que, en el tiempo antiguo, la <uwájllój~~i~~> andaba con su padre. Pero empezó a desobedecerlo y a no seguir sus consejos. De hecho, su indisciplina llegó a ser tanta que, en cierta ocasión, el padre no la aguantó más. Entonces se encaminó rumbo al cielo y la dejó abandonada. Desde ese momento, la <uwájllój~~i~~> quedó sola en esta tierra. Y por eso siempre está diciendo <lliihú> (“padre”), arrepentida por no haber cumplido con sus enseñanzas. De esta historia se saca un consejo, agrega el abuelo Rimabake: que siempre hay que obedecer a los padres y ser disciplinados para no extraviarse en la vida.
-
-**Actividad lúdica**
-
-Esta actividad se realiza con la ayuda de una herramienta pedagógica intercultural que será empleada a todo lo largo del taller: el <wahaku uberichi> o “canasto de palabras”. Sobre pequeños pedazos de cartulina, con marcadores, son registradas en p~~ii~~nemuna (sin traducción) todas las <wahaku> (“palabras”) mencionadas por la maestra-formadora. Luego, esas <wahaku> se depositan en un <uberichi> (“canasto de fibras”), de donde pueden ser extraídas a voluntad. De esta manera, a medida que se vayan desarrollando los encuentros, el <uberichi> se irá llenando con nuevas <wahaku>.
-
-En esta ocasión, la actividad lúdica consiste en un juego bastante conocido, llamado “tingo tango”. Los aprendices se disponen en círculo. Y, a la voz de “tingo tango, tingo tango”, van pasándose una bolita de mano en mano. Cuando la voz se detiene, el aprendiz en quien queda la bolita debe pasar al centro del círculo, extraer una <wahaku> del <uberichi>, pronunciarla correctamente y decir cuál es su significado en castellano.  
+Para concluir con el recuento de los temas abordados durante los encuentros de formación, el abuelo Fairirama recuerda que los cantos que ha elegido para presentar durante el baile de cierre son dos “cantos de adivinación” `(*eiki*)`, que se interpretan en el momento de entrar a una fiesta ritual; que los bailes rituales tienen su origen en el ancestro Zaierani, el primero en poseer la abundancia de alimentos necesaria para llevar a cabo a un baile por primera vez; y que, para el pueblo múrui, solo existe un cantor principal, de modo que la función de quienes lo acompañan, llamados “levantadores”, es repetir alternativamente lo interpretado por el cantor principal. 

@@ -2,7 +2,6 @@
 title: 'Presentación'
 date: 'Presentación'
 excerpt: 'El Taller Escuela en lenguas originarias de los pueblos tikuna, múrui, miraña y yukuna, llevado a cabo en el Cabildo de Pueblos Indígenas Unidos de Leticia Capiul'
-cover_image: '/images/posts/img3.jpg'
 ---
 
 **Presentación**
