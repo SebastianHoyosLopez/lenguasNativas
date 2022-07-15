@@ -7,21 +7,23 @@ import { itemDataCaranaMaloca } from '../../assets/Images';
 
 export default function ImgMuseoVivo() {
   const router = useRouter();
-  const id = router.query.id - 1 || null;
+  console.log(router.query);
+  const id = router.query.id || null;
+  const itemEsmeralda = itemDataCaranaMaloca.find((item) => item.id == id);
   return (
     <>
       {id !== null && (
         <>
           <Card sx={{ marginTop: '-5rem' }}>
             <div style={{ textAlign: 'center' }}>
-              <Image height={400} width={400} style={{ objectFit: 'cover' }} src={itemDataCaranaMaloca[id].img} alt="Imagen presentación" />
+              <Image height={600} width={600} style={{ objectFit: 'cover' }} src={itemEsmeralda.img} alt="Imagen presentación" />
             </div>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography gutterBottom variant="h6" component="div">
-                {itemDataCaranaMaloca[id].author}
+                {itemEsmeralda.author}
               </Typography>
               <Typography variant="p" color="text.secondary" noWrap>
-                {itemDataCaranaMaloca[id].title}
+                {itemEsmeralda.title}
               </Typography>
             </CardContent>
             <Link href="/Comunidad_nueva_esmeralda">

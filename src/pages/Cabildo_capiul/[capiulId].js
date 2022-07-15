@@ -7,22 +7,24 @@ import { itemDataCapiul } from '../../assets/Images';
 
 export default function ImgMuseoVivo() {
   const router = useRouter();
-  const id = router.query.id - 1 || null;
-  console.log(id);
+  console.log(router.query);
+  const id = router.query.capiulId || null;
+  const itemCapiul = itemDataCapiul.find((item) => item.id == id);
+
   return (
     <>
       {id !== null && (
         <>
           <Card sx={{ marginTop: '-5rem' }}>
             <div style={{ textAlign: 'center' }}>
-              <Image height={400} width={400} style={{ objectFit: 'cover' }} src={itemDataCapiul[id].img} alt="Imagen presentación" />
+              <Image height={600} width={600} style={{ objectFit: 'cover' }} src={itemCapiul.img} alt="Imagen presentación" />
             </div>
             <CardContent sx={{ textAlign: 'center' }}>
               <Typography gutterBottom variant="h6" component="div">
-                {itemDataCapiul[id].author}
+                {itemCapiul.author}
               </Typography>
               <Typography variant="p" color="text.secondary" noWrap>
-                {itemDataCapiul[id].title}
+                {itemCapiul.title}
               </Typography>
             </CardContent>
             <Link href="/Cabildo_capiul">

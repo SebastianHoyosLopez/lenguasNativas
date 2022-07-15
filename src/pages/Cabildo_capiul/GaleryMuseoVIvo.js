@@ -5,6 +5,7 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 import { Typography } from '@mui/material';
 import Image from 'next/image';
 import { itemDataCapiul } from '../../assets/Images';
+import Link from 'next/link';
 // import Link from 'next/link';
 
 export default function TitlebarImageList() {
@@ -32,13 +33,13 @@ export default function TitlebarImageList() {
         </Typography>
       </div>
       <ImageList sx={{ width: 700, height: '1200px' }}>
-        {itemDataCapiul.map((item) => (
-          // <Link key={index} href="/Cabildo_capiul/[id]" as={`/cabildo_capiul/${item.id}`}>
-          <ImageListItem key={item.img} sx={{ cursor: 'pointer' }}>
-            <Image style={{ objectFit: 'cover' }} src={item.img} srcSet={item.img} width={248} height={248} alt={item.title} loading="lazy" />
-            <ImageListItemBar title={item.title} subtitle={item.author} />
-          </ImageListItem>
-          // </Link>
+        {itemDataCapiul.map((item, index) => (
+          <Link key={index} href="/Cabildo_capiul/[capiulId]" as={`/Cabildo_capiul/${item.id}`}>
+            <ImageListItem key={item.img} sx={{ cursor: 'pointer' }}>
+              <Image style={{ objectFit: 'cover' }} src={item.img} srcSet={item.img} width={248} height={248} alt={item.title} loading="lazy" />
+              <ImageListItemBar title={item.title} subtitle={item.author} />
+            </ImageListItem>
+          </Link>
         ))}
       </ImageList>
     </>
