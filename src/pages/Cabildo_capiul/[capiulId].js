@@ -9,6 +9,8 @@ export default function ImgMuseoVivo() {
   const router = useRouter();
   console.log(router.query);
   const id = router.query.capiulId || null;
+  const next = id < 18 ? parseInt(id) + 1 : id;
+  const previous = id > 1 ? id - 1 : 1;
   const itemCapiul = itemDataCapiul.find((item) => item.id == id);
 
   return (
@@ -20,18 +22,28 @@ export default function ImgMuseoVivo() {
               <Image height={600} width={600} style={{ objectFit: 'cover' }} src={itemCapiul.img} alt="Imagen presentación" />
             </div>
             <CardContent sx={{ textAlign: 'center' }}>
-              <Typography gutterBottom variant="h6" component="div">
-                {itemCapiul.author}
-              </Typography>
-              <Typography variant="p" color="text.secondary" noWrap>
+              <Typography variant="h6">{itemCapiul.author}</Typography>
+              <Typography variant="p" color="text.secondary">
                 {itemCapiul.title}
               </Typography>
             </CardContent>
-            <Link href="/Cabildo_capiul">
-              <Typography sx={{ cursor: 'pointer' }} align="center">
-                Regresar
-              </Typography>
-            </Link>
+            <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+              <Link href={`/Cabildo_capiul/[capiulId]`} as={`/Cabildo_capiul/${previous}`}>
+                <Typography sx={{ cursor: 'pointer' }} align="center">
+                  Anterior
+                </Typography>
+              </Link>
+              <Link href={`/Cabildo_capiul`}>
+                <Typography sx={{ cursor: 'pointer' }} align="center">
+                  Inicio
+                </Typography>
+              </Link>
+              <Link href={`/Cabildo_capiul/[capiulId]`} as={`/Cabildo_capiul/${next}`}>
+                <Typography sx={{ cursor: 'pointer' }} align="center">
+                  Siguiente
+                </Typography>
+              </Link>
+            </div>
           </Card>
         </>
       )}

@@ -9,6 +9,8 @@ export default function ImgMuseoVivo() {
   const router = useRouter();
   console.log(router.query);
   const id = router.query.id || null;
+  const next = id < 26 ? parseInt(id) + 1 : id;
+  const previous = id > 1 ? id - 1 : 1;
   const itemEsmeralda = itemDataCaranaMaloca.find((item) => item.id == id);
   return (
     <>
@@ -26,11 +28,23 @@ export default function ImgMuseoVivo() {
                 {itemEsmeralda.title}
               </Typography>
             </CardContent>
-            <Link href="/Comunidad_nueva_esmeralda">
-              <Typography sx={{ cursor: 'pointer' }} align="center">
-                Regresar
-              </Typography>
-            </Link>
+            <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+              <Link href={`/Comunidad_nueva_esmeralda/[id]`} as={`/Comunidad_nueva_esmeralda/${previous}`}>
+                <Typography sx={{ cursor: 'pointer' }} align="center">
+                  Anterior
+                </Typography>
+              </Link>
+              <Link href={`/Comunidad_nueva_esmeralda`}>
+                <Typography sx={{ cursor: 'pointer' }} align="center">
+                  Inicio
+                </Typography>
+              </Link>
+              <Link href={`/Comunidad_nueva_esmeralda/[id]`} as={`/Comunidad_nueva_esmeralda/${next}`}>
+                <Typography sx={{ cursor: 'pointer' }} align="center">
+                  Siguiente
+                </Typography>
+              </Link>
+            </div>
           </Card>
         </>
       )}
