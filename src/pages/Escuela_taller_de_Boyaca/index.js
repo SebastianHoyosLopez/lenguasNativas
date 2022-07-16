@@ -1,7 +1,7 @@
 import { Typography, Box } from '@mui/material';
 import Image from 'next/image';
 import React from 'react';
-import escuelaTallerBoyaca from '../../../public/image/escuela_taller_Boyaca.jpg';
+import escuelaTallerBoyaca from '../../../public/image/escuela_taller_Boyaca.png';
 
 const Lenguas = () => {
   console.log('lenguas');
@@ -13,7 +13,7 @@ const Lenguas = () => {
           position: 'absolute',
           zIndex: '1',
           width: '45%',
-          marginTop: '24rem',
+          marginTop: '30rem',
           marginLeft: '5rem',
           textAlign: 'justify',
           background: '#B78A81',
