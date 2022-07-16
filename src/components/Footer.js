@@ -1,18 +1,26 @@
 import { Box } from '@mui/material';
 import Image from 'next/image';
 import React from 'react';
-import tallerEscuela from '../../public/image/Logo Escuela - copia.png';
+import tallerEscuela from '../../public/image/Logo Escuela.png';
 import ministerio from '../../public/image/Logo Mincultura PNG.png';
 import talleresEscuela from '../../public/image/logodeetColombia.png';
 
 const Footer = () => {
   return (
-    <Box sx={{ textAlign: 'center', padding: '4rem' }}>
+    <>
       <hr />
-      <Image src={tallerEscuela} alt="taller escuela" height={120} width={180} style={{ marginRight: '1rem' }} />
-      <Image src={ministerio} alt="imagen ministerio" height={120} width={440} />
-      <Image src={talleresEscuela} alt="talleres escuela de colombia" height={140} width={150} />
-    </Box>
+      <Box sx={{ textAlign: 'center', padding: '4rem', display: 'flex', justifyContent: 'space-around' }}>
+        <div>
+          <Image src={ministerio} alt="imagen ministerio" height={80} width={300} />
+        </div>
+        <div style={{ marginTop: '-3rem' }}>
+          <Image src={talleresEscuela} alt="taller escuela" height={200} width={300} />
+        </div>
+        <div>
+          <Image src={tallerEscuela} alt="taller escuela" height={80} width={300} />
+        </div>
+      </Box>
+    </>
   );
 };
 

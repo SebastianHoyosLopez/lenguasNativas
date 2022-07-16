@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, Typography } from '@mui/material';
+import { CardContent, Typography } from '@mui/material';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
@@ -17,34 +17,32 @@ export default function ImgMuseoVivo() {
     <>
       {id !== null && (
         <>
-          <Card sx={{ marginTop: '-5rem' }}>
-            <div style={{ textAlign: 'center' }}>
-              <Image height={600} width={600} style={{ objectFit: 'cover' }} src={itemCapiul.img} alt="Imagen presentación" />
-            </div>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography variant="h6">{itemCapiul.author}</Typography>
-              <Typography variant="p" color="text.secondary">
-                {itemCapiul.title}
+          <div style={{ textAlign: 'center' }}>
+            <Image height={600} width={800} style={{ objectFit: 'cover' }} src={itemCapiul.img} alt="Imagen presentación" />
+          </div>
+          <CardContent sx={{ textAlign: 'center' }}>
+            <Typography variant="h6">{itemCapiul.author}</Typography>
+            <Typography variant="p" color="text.secondary">
+              {itemCapiul.title}
+            </Typography>
+          </CardContent>
+          <div style={{ display: 'flex', justifyContent: 'space-around', marginTop: '2rem', marginBottom: '2rem' }}>
+            <Link href={`/Cabildo_capiul/[capiulId]`} as={`/Cabildo_capiul/${previous}`}>
+              <Typography sx={{ cursor: 'pointer' }} align="center">
+                Anterior
               </Typography>
-            </CardContent>
-            <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-              <Link href={`/Cabildo_capiul/[capiulId]`} as={`/Cabildo_capiul/${previous}`}>
-                <Typography sx={{ cursor: 'pointer' }} align="center">
-                  Anterior
-                </Typography>
-              </Link>
-              <Link href={`/Cabildo_capiul`}>
-                <Typography sx={{ cursor: 'pointer' }} align="center">
-                  Inicio
-                </Typography>
-              </Link>
-              <Link href={`/Cabildo_capiul/[capiulId]`} as={`/Cabildo_capiul/${next}`}>
-                <Typography sx={{ cursor: 'pointer' }} align="center">
-                  Siguiente
-                </Typography>
-              </Link>
-            </div>
-          </Card>
+            </Link>
+            <Link href={`/Cabildo_capiul`}>
+              <Typography sx={{ cursor: 'pointer' }} align="center">
+                Inicio
+              </Typography>
+            </Link>
+            <Link href={`/Cabildo_capiul/[capiulId]`} as={`/Cabildo_capiul/${next}`}>
+              <Typography sx={{ cursor: 'pointer' }} align="center">
+                Siguiente
+              </Typography>
+            </Link>
+          </div>
         </>
       )}
     </>

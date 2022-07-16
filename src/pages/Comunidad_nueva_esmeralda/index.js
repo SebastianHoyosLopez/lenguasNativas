@@ -11,6 +11,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import Post from '../../components/Post';
 import { sortByDate } from '../../utils/';
+import MultimediaVideo from './MultimediaVideo';
 
 export async function getStaticProps() {
   // Get files from the posts dir
@@ -94,6 +95,7 @@ const index = ({ posts }) => {
           </div>
         </Grid>
       </Grid>
+      <MultimediaVideo />
     </div>
   );
 };

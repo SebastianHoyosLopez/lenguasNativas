@@ -1,4 +1,4 @@
-import { Card, CardContent, Typography } from '@mui/material';
+import { CardContent, Typography } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -16,36 +16,32 @@ export default function ImgMuseoVivo() {
     <>
       {id !== null && (
         <>
-          <Card sx={{ marginTop: '-5rem' }}>
-            <div style={{ textAlign: 'center' }}>
-              <Image height={600} width={600} style={{ objectFit: 'cover' }} src={itemEsmeralda.img} alt="Imagen presentación" />
-            </div>
-            <CardContent sx={{ textAlign: 'center' }}>
-              <Typography gutterBottom variant="h6" component="div">
-                {itemEsmeralda.author}
+          <div style={{ textAlign: 'center' }}>
+            <Image height={600} width={800} style={{ objectFit: 'cover' }} src={itemEsmeralda.img} alt="Imagen presentación" />
+          </div>
+          <CardContent sx={{ textAlign: 'center' }}>
+            <Typography variant="h6">{itemEsmeralda.author}</Typography>
+            <Typography variant="p" color="text.secondary">
+              {itemEsmeralda.title}
+            </Typography>
+          </CardContent>
+          <div style={{ display: 'flex', justifyContent: 'space-around', marginTop: '2rem', marginBottom: '2rem' }}>
+            <Link href={`/Comunidad_nueva_esmeralda/[id]`} as={`/Comunidad_nueva_esmeralda/${previous}`}>
+              <Typography sx={{ cursor: 'pointer' }} align="center">
+                Anterior
               </Typography>
-              <Typography variant="p" color="text.secondary" noWrap>
-                {itemEsmeralda.title}
+            </Link>
+            <Link href={`/Comunidad_nueva_esmeralda`}>
+              <Typography sx={{ cursor: 'pointer' }} align="center">
+                Inicio
               </Typography>
-            </CardContent>
-            <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-              <Link href={`/Comunidad_nueva_esmeralda/[id]`} as={`/Comunidad_nueva_esmeralda/${previous}`}>
-                <Typography sx={{ cursor: 'pointer' }} align="center">
-                  Anterior
-                </Typography>
-              </Link>
-              <Link href={`/Comunidad_nueva_esmeralda`}>
-                <Typography sx={{ cursor: 'pointer' }} align="center">
-                  Inicio
-                </Typography>
-              </Link>
-              <Link href={`/Comunidad_nueva_esmeralda/[id]`} as={`/Comunidad_nueva_esmeralda/${next}`}>
-                <Typography sx={{ cursor: 'pointer' }} align="center">
-                  Siguiente
-                </Typography>
-              </Link>
-            </div>
-          </Card>
+            </Link>
+            <Link href={`/Comunidad_nueva_esmeralda/[id]`} as={`/Comunidad_nueva_esmeralda/${next}`}>
+              <Typography sx={{ cursor: 'pointer' }} align="center">
+                Siguiente
+              </Typography>
+            </Link>
+          </div>
         </>
       )}
     </>
