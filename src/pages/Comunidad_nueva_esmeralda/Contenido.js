@@ -50,19 +50,18 @@ const Contenido = () => {
                 <span>A continuaci&oacute;n, se enumeran los contenidos, actividades y metodolog&iacute;a del plan de formaci&oacute;n, dividido en tres m&oacute;dulos. </span>
               </div>
             </div>
-
             <Typography align="center" variant="h4" fontWeight={600} mt={8}>
               M&Oacute;DULO 1: FONOLOG&Iacute;A Y ALFABETO DE LA LENGUA BORA
             </Typography>
             <Typography align="center" variant="h4" fontWeight={600}>
               PER&Iacute;ODO: FEBRERO DE 2022
             </Typography>
-
-            <Typography align="lefth" variant="h4" fontWeight={600} mt={10}>
+            <ul>
+              <li><Typography align="lefth" variant="h4" fontWeight={600} mt={10}>
               OBJETIVOS:&nbsp;
             </Typography>
-
-            <ol>
+              </li>
+              <ol>
               <li aria-level="1">
                 <span>Reconocer los sonidos de la lengua bora</span>
               </li>
@@ -78,38 +77,50 @@ const Contenido = () => {
                 </li>
               </ol>
             </ol>
-            <p></p>
-            <p>
-              <b>CONTENIDO TEM&Aacute;TICO:</b>
-            </p>
-            <p>
-              <span>1.1.1 Las vocales</span>
-            </p>
-            <p>
-              <span>1.1.2 Las consonantes</span>
-            </p>
-            <p>
-              <span>1.1.3 El alfabeto</span>
-            </p>
-            <p>
-              <span>1.2.1 Vocal corta y vocal alargada</span>
-            </p>
-            <p>
-              <span>1.2.2 Tono bajo, tono alto</span>
-            </p>
-            <p>
-              <span>1.2.3 Tono alto bajo, tono bajo alto.&nbsp;</span>
-            </p>
-            <p>
-              <span>1.3.1 Vocabulario de la chagra</span>
-            </p>
-            <p>
-              <span>1.3.2 Vocabulario del monte y el r&iacute;o</span>
-            </p>
-            <p>
-              <span>1.3.3 Vocabulario de la maloca</span>
-            </p>
-            <p></p>
+
+            </ul>
+            <ul>
+              <li><Typography align="lefth" variant="h4" fontWeight={600} mt={10}>
+              CONTENIDO TEM&Aacute;TICO:
+            </Typography>
+              </li>
+              <ul>
+              <li aria-level="1">
+                <span>1.1.1 Las vocales</span>
+              </li>
+              <li aria-level="1">
+                <span>1.1.2 Las consonantes</span>
+              </li>
+              <li aria-level="1">
+                <span>1.1.3 El alfabeto</span>
+              </li>
+              <li aria-level="1">
+                <span>1.2.1 Vocal corta y vocal alargada</span>
+              </li>
+              <li aria-level="1">
+                <span>1.2.2 Tono bajo, tono alto</span>
+              </li>
+              <li aria-level="1">
+                <span>1.2.3 Tono alto bajo, tono bajo alto.&nbsp;</span>
+              </li>
+              <li aria-level="1">
+                <span>1.3.2 Vocabulario del monte y el r&iacute;o</span>
+              </li>
+              <li aria-level="1">
+                <span>1.3.3 Vocabulario de la maloca</span>
+              </li>
+            </ul>
+
+
+            
+
+            </ul>
+           
+           
+          
+          
+            
+           
             <p>
               <b>METODOLOG&Iacute;A</b>
             </p>

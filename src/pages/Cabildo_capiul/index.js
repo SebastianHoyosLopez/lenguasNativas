@@ -2,7 +2,7 @@ import Image from 'next/image';
 import imagenPresentacion from '../../../public/image/portadaCapiul.jpg';
 import { Grid, Box, Typography } from '@mui/material';
 import CardSubMenu from '../../components/CardSubMenu.js';
-import presentacion from '../../../public/image/museoVivoCapiul/photoCapiul1.png';
+import contenido from '../../../public/image/museoVivoCapiul/photoCapiul1.png';
 import saberes from '../../../public/image/saberesCapiul.jpg';
 import GaleryMuseoVIvo from './GaleryMuseoVIvo';
 import fs from 'fs';
@@ -10,7 +10,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import Post from '../../components/PostCapiul';
 import { sortByDate } from '../../utils/';
-import contenido from '../../../public/image/galeriaNuevaEsmeralda/2.png';
+import presentacion from '../../../public/image/presentacionCapiul.jpg';
 
 export async function getStaticProps() {
   // Get files from the posts dir
