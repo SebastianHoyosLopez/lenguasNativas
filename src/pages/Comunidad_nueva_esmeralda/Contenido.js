@@ -57,70 +57,62 @@ const Contenido = () => {
               PER&Iacute;ODO: FEBRERO DE 2022
             </Typography>
             <ul>
-              <li><Typography align="lefth" variant="h4" fontWeight={600} mt={10}>
-              OBJETIVOS:&nbsp;
-            </Typography>
+              <li>
+                <Typography align="lefth" variant="h4" fontWeight={600} mt={10}>
+                  OBJETIVOS:&nbsp;
+                </Typography>
               </li>
               <ol>
-              <li aria-level="1">
-                <span>Reconocer los sonidos de la lengua bora</span>
-              </li>
-              <ol>
-                <li aria-level="2">
-                  <span>Identificar las vocales y consonantes de la lengua bora</span>
+                <li aria-level="1">
+                  <span>Reconocer los sonidos de la lengua bora</span>
                 </li>
-                <li aria-level="2">
-                  <span>Reconocer los tonos de la lengua bora</span>
-                </li>
-                <li aria-level="2">
-                  <span>Pronunciar correctamente las vocales, consonantes y los tonos de la lengua bora</span>
-                </li>
+                <ol>
+                  <li aria-level="2">
+                    <span>Identificar las vocales y consonantes de la lengua bora</span>
+                  </li>
+                  <li aria-level="2">
+                    <span>Reconocer los tonos de la lengua bora</span>
+                  </li>
+                  <li aria-level="2">
+                    <span>Pronunciar correctamente las vocales, consonantes y los tonos de la lengua bora</span>
+                  </li>
+                </ol>
               </ol>
-            </ol>
-
             </ul>
             <ul>
-              <li><Typography align="lefth" variant="h4" fontWeight={600} mt={10}>
-              CONTENIDO TEM&Aacute;TICO:
-            </Typography>
+              <li>
+                <Typography align="lefth" variant="h4" fontWeight={600} mt={10}>
+                  CONTENIDO TEM&Aacute;TICO:
+                </Typography>
               </li>
               <ul>
-              <li aria-level="1">
-                <span>1.1.1 Las vocales</span>
-              </li>
-              <li aria-level="1">
-                <span>1.1.2 Las consonantes</span>
-              </li>
-              <li aria-level="1">
-                <span>1.1.3 El alfabeto</span>
-              </li>
-              <li aria-level="1">
-                <span>1.2.1 Vocal corta y vocal alargada</span>
-              </li>
-              <li aria-level="1">
-                <span>1.2.2 Tono bajo, tono alto</span>
-              </li>
-              <li aria-level="1">
-                <span>1.2.3 Tono alto bajo, tono bajo alto.&nbsp;</span>
-              </li>
-              <li aria-level="1">
-                <span>1.3.2 Vocabulario del monte y el r&iacute;o</span>
-              </li>
-              <li aria-level="1">
-                <span>1.3.3 Vocabulario de la maloca</span>
-              </li>
+                <li aria-level="1">
+                  <span>1.1.1 Las vocales</span>
+                </li>
+                <li aria-level="1">
+                  <span>1.1.2 Las consonantes</span>
+                </li>
+                <li aria-level="1">
+                  <span>1.1.3 El alfabeto</span>
+                </li>
+                <li aria-level="1">
+                  <span>1.2.1 Vocal corta y vocal alargada</span>
+                </li>
+                <li aria-level="1">
+                  <span>1.2.2 Tono bajo, tono alto</span>
+                </li>
+                <li aria-level="1">
+                  <span>1.2.3 Tono alto bajo, tono bajo alto.&nbsp;</span>
+                </li>
+                <li aria-level="1">
+                  <span>1.3.2 Vocabulario del monte y el r&iacute;o</span>
+                </li>
+                <li aria-level="1">
+                  <span>1.3.3 Vocabulario de la maloca</span>
+                </li>
+              </ul>
             </ul>
 
-
-            
-
-            </ul>
-           
-           
-          
-          
-            
-           
             <p>
               <b>METODOLOG&Iacute;A</b>
             </p>
