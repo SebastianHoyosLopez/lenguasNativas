@@ -71,7 +71,7 @@ const index = ({ posts }) => {
         <Grid container direction="row" justifyContent="space-around" alignItems="center" xs={12}>
           <CardSubMenu
             image={saberes}
-            posts={'/blog/presentacion'}
+            posts={'./Comunidad_nueva_esmeralda/Presentacion'}
             title={'Presentación'}
             body={'El Taller Escuela para la Salvaguarda de la lengua bora llevado a cabo en la Comunidad Nueva Esmeralda, bajo la coordinación de la Escuela Taller de Boyacá,'}
           />

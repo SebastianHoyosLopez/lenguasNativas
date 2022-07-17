@@ -64,10 +64,10 @@ const index = ({ posts }) => {
           </Box>
         </Grid>
         <Grid container direction="row" justifyContent="space-around" alignItems="center" xs={12}>
-          <CardSubMenu image={presentacion} posts={'/blogCapiul/presentacion'} title={'Presentación'} body={'lenguas originarias de los pueblos tikuna, múrui, miraña y yukuna'} />
+          <CardSubMenu image={presentacion} posts={'./Cabildo_capiul/Presentacion'} title={'Presentación'} body={'lenguas originarias de los pueblos tikuna, múrui, miraña y yukuna'} />
           <CardSubMenu
             image={saberes}
-            posts={'/blogCapiul/saberes-oficios'}
+            posts={'./Cabildo_capiul/Presentacion'}
             title={'Saberes y Oficios'}
             body={'La población miembro de CAPIUL se reconoce como perteneciente a 26 grupos étnicos, de al menos diez familias lingüísticas diferentes'}
           />

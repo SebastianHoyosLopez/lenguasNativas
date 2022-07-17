@@ -1,4 +1,3 @@
-// import React from 'react';
 import Image from 'next/image';
 import imagenPresentacion from '../../public/image/portadaHome.png';
 import { Box, Grid, Typography } from '@mui/material';
