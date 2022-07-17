@@ -77,7 +77,7 @@ const index = ({ posts }) => {
           />
           <CardSubMenu
             image={presentacion}
-            posts={'/blog/saberes-oficios'}
+            posts={'./Comunidad_nueva_esmeralda/SaberesOficios'}
             title={'Saberes y Oficios'}
             body={
               'La lengua píínemuna (o bora) es una de las veintiún familias lingüísticas nativas existentes en territorio colombiano. Landaburu la ubica en el grupo de lenguas de “proyección regional” en Sudamérica'

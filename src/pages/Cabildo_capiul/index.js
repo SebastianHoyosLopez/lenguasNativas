@@ -51,7 +51,6 @@ const index = ({ posts }) => {
               width: '80%',
               marginTop: '0rem',
               marginLeft: '2rem',
-
               background: 'black',
               opacity: 0.5,
               //padding: '0rem 1rem 1rem 1rem',
@@ -64,10 +63,14 @@ const index = ({ posts }) => {
           </Box>
         </Grid>
         <Grid container direction="row" justifyContent="space-around" alignItems="center" xs={12}>
-          <CardSubMenu image={presentacion} posts={'./Cabildo_capiul/Presentacion'} title={'Presentación'} body={'lenguas originarias de los pueblos tikuna, múrui, miraña y yukuna'} />
+          <CardSubMenu 
+          image={presentacion} 
+          posts={'./Cabildo_capiul/Presentacion'} 
+          title={'Presentación'} 
+          body={'lenguas originarias de los pueblos tikuna, múrui, miraña y yukuna'} />
           <CardSubMenu
             image={saberes}
-            posts={'./Cabildo_capiul/Presentacion'}
+            posts={'./Cabildo_capiul/SaberesOficios'}
             title={'Saberes y Oficios'}
             body={'La población miembro de CAPIUL se reconoce como perteneciente a 26 grupos étnicos, de al menos diez familias lingüísticas diferentes'}
           />
