@@ -64,25 +64,21 @@ const index = ({ posts }) => {
           </Box>
         </Grid>
         <Grid container direction="row" justifyContent="space-around" alignItems="center" xs={12}>
-          <CardSubMenu
-           image={presentacion}
-            posts={'./Cabildo_capiul/Presentacion'}
-             title={'Presentación'} 
-             body={'lenguas originarias de los pueblos tikuna, múrui, miraña y yukuna'} />
+          <CardSubMenu image={presentacion} posts={'./Cabildo_capiul/Presentacion'} title={'Presentación'} body={'lenguas originarias de los pueblos tikuna, múrui, miraña y yukuna'} />
           <CardSubMenu
             image={saberes}
             posts={'./Cabildo_capiul/SaberesOficios'}
             title={'Saberes y Oficios'}
             body={'La población miembro de CAPIUL se reconoce como perteneciente a 26 grupos étnicos, de al menos diez familias lingüísticas diferentes'}
           />
-            <CardSubMenu
+          <CardSubMenu
             image={contenido}
             posts={'./Comunidad_nueva_esmeralda/Contenido'}
             title={'Contenido'}
             body={'El proceso de formación contó con una duración de 36 sesiones (140 horas en total)'}
           />
         </Grid>
-      
+
         <Grid item xs={8} sx={{ padding: '1rem' }}>
           <GaleryMuseoVIvo />
         </Grid>
