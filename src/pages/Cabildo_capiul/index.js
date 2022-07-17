@@ -63,11 +63,7 @@ const index = ({ posts }) => {
           </Box>
         </Grid>
         <Grid container direction="row" justifyContent="space-around" alignItems="center" xs={12}>
-          <CardSubMenu 
-          image={presentacion} 
-          posts={'./Cabildo_capiul/Presentacion'} 
-          title={'Presentación'} 
-          body={'lenguas originarias de los pueblos tikuna, múrui, miraña y yukuna'} />
+          <CardSubMenu image={presentacion} posts={'./Cabildo_capiul/Presentacion'} title={'Presentación'} body={'lenguas originarias de los pueblos tikuna, múrui, miraña y yukuna'} />
           <CardSubMenu
             image={saberes}
             posts={'./Cabildo_capiul/SaberesOficios'}

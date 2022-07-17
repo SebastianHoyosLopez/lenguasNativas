@@ -27,8 +27,8 @@ const Presentacion = () => {
           <p>
             En esta comunidad se diseñó y ofertó un Taller Escuela que contempló sesiones de transmisión de historias y de conocimientos tradicionales sobre la lengua `p~~íí~~nemuna`, mediante la
             enseñanza acerca de oficios ligados a la maloca o `*baaja*` y la chagra o `*um~~i~~he*`. Estas sesiones fueron lideradas por la maestra-sabedora Balvina Yacob Imis, hablante de
-            `p~~íí~~nemuna` desde su niñez. La metodología de estas sesiones de trabajo se ha fundado en el principio "Aprender haciendo". Por eso, antes de iniciar propiamente las actividades
-            formativas, se adelantó también una “minga” para reparar el techo de la maloca, en la cual participaron los miembros masculinos de la comunidad, jóvenes y adultos. Luego, se estudió
+            `p~~íí~~nemuna` desde su niñez. La metodología de estas sesiones de trabajo se ha fundado en el principio `Aprender haciendo`. Por eso, antes de iniciar propiamente las actividades
+            formativas, se adelantó también una `minga` para reparar el techo de la maloca, en la cual participaron los miembros masculinos de la comunidad, jóvenes y adultos. Luego, se estudió
             detalladamente el alfabeto para identificar las particularidades fonológicas de lengua `p~~íí~~nemuna`, haciendo énfasis en ejercicios de pronunciación. Y, en tercer lugar, se abordaron
             los conocimientos ligados a los oficios de la maloca y de la chagra, que siempre iban acompañados de actividades prácticas, de visitas y observaciones guiadas, y de ejercicios de
             investigación con sabedores tradicionales. Se había previsto trabajar además con cantos tradicionales en lengua `p~~íí~~nemuna`, pero el límite de tiempo impidió llegar a este núcleo de
