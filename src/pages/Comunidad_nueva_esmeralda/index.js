@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import imagenPresentacion from '../../../public/image/portadaEsmeralda.jpg';
+import presentacion from '../../../public/image/saberesEsmeralda.jpg';
+import contenido from '../../../public/image/galeriaNuevaEsmeralda/2.png';
 
 import { Grid, Box, Typography } from '@mui/material';
 import CardSubMenu from '../../components/CardSubMenu.js';
-import presentacion from '../../../public/image/saberesEsmeralda.jpg';
+
 import saberes from '../../../public/image/saberes.jpg';
 import GaleryMuseoVIvo from './GaleryMuseoVIvo';
 import fs from 'fs';
@@ -82,6 +84,12 @@ const index = ({ posts }) => {
             body={
               'La lengua píínemuna (o bora) es una de las veintiún familias lingüísticas nativas existentes en territorio colombiano. Landaburu la ubica en el grupo de lenguas de “proyección regional” en Sudamérica'
             }
+          />
+          <CardSubMenu
+            image={contenido}
+            posts={'./Comunidad_nueva_esmeralda/Contenido'}
+            title={'Contenido'}
+            body={'El proceso de formación contó con una duración de 36 sesiones (140 horas en total)'}
           />
         </Grid>
         <Grid item xs={8} sx={{ padding: '1rem' }}>
