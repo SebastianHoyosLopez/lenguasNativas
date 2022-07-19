@@ -1,9 +1,13 @@
+import { Typography } from '@mui/material';
 import React from 'react';
 import ReactPlayer from 'react-player';
 
 const MultimediaVideo = () => {
   return (
     <>
+      <Typography variant="h2" align="center" sx={{ marginTop: '3rem' }}>
+        Contenido audivisual
+      </Typography>
       <div style={{ display: 'flex', justifyContent: 'space-between', marginRight: '5rem', marginLeft: '5rem', marginBottom: '5rem', marginTop: '5rem' }}>
         <div style={{ width: '40%', height: '20rem' }}>
           <ReactPlayer url="https://www.youtube.com/watch?v=d6JXul6JNL0" width="95%" height="100%" />

@@ -14,6 +14,7 @@ import matter from 'gray-matter';
 import Post from '../../components/Post';
 import { sortByDate } from '../../utils/';
 import MultimediaVideo from './MultimediaVideo';
+import Biography from './Biography';
 
 export async function getStaticProps() {
   // Get files from the posts dir
@@ -91,6 +92,9 @@ const index = ({ posts }) => {
             title={'Contenido'}
             body={'El proceso de formación contó con una duración de 36 sesiones (140 horas en total)'}
           />
+        </Grid>
+        <Grid item xs={12}>
+          <Biography />
         </Grid>
         <Grid item xs={8} sx={{ padding: '1rem' }}>
           <GaleryMuseoVIvo />

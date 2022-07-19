@@ -10,7 +10,7 @@ import Image from 'next/image';
 export default function TitlebarImageList() {
   return (
     <>
-      <div style={{ padding: '0 2rem 2rem 0', textAlign: 'justify' }}>
+      <div style={{ padding: '0 1rem rem 0', textAlign: 'justify' }}>
         <Typography variant="h4" align="center">
           MUSEOS VIVOS
         </Typography>
@@ -20,7 +20,7 @@ export default function TitlebarImageList() {
           interiores de la maloca y de los diferentes elementos empleados en ella.
         </Typography>
       </div>
-      <ImageList sx={{ width: 700, height: '2300px' }}>
+      <ImageList sx={{ width: 700, height: '2050px' }}>
         {itemDataCaranaMaloca.map((item, index) => (
           <Link key={index} href={`/Comunidad_nueva_esmeralda/[id]`} as={`/Comunidad_nueva_esmeralda/${item.id}`}>
             <ImageListItem sx={{ cursor: 'pointer' }}>
