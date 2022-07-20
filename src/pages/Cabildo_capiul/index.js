@@ -72,12 +72,7 @@ const index = ({ posts }) => {
             title={'Saberes y Oficios'}
             body={'La población miembro de CAPIUL se reconoce como perteneciente a 26 grupos étnicos, de al menos diez familias lingüísticas diferentes'}
           />
-          <CardSubMenu
-            image={contenido}
-            posts={'./Comunidad_nueva_esmeralda/Contenido'}
-            title={'Contenido'}
-            body={'El proceso de formación contó con una duración de 36 sesiones (140 horas en total)'}
-          />
+          <CardSubMenu image={contenido} posts={'./Cabildo_capiul/Contenido'} title={'Contenido'} body={'El proceso de formación contó con una duración de 36 sesiones (140 horas en total)'} />
         </Grid>
         <Grid item xs={12}>
           <Biography />

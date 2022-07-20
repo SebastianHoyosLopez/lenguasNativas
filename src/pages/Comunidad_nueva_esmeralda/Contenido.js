@@ -112,65 +112,87 @@ const Contenido = () => {
                 </li>
               </ul>
             </ul>
+            <ul>
+              <li>
+                {' '}
+                <p>
+                  <b>METODOLOG&Iacute;A</b>
+                </p>
+              </li>
+              <ul>
+                <li>
+                  <span>1.1.1 Explicaci&oacute;n por parte de la maestra</span>
+                </li>
+                <li>
+                  <span>1.1.2 Ejercicios de repetici&oacute;n&nbsp;</span>
+                </li>
+                <li>
+                  <span>1.1.3 Pr&aacute;ctica en grupos acompa&ntilde;ados por un abuelo bora hablante</span>
+                </li>
+                <li>
+                  <span>1.2.1 Explicaci&oacute;n por parte de la maestra</span>
+                </li>
+                <li>
+                  <span>1.2.2 Ejercicios de repetici&oacute;n&nbsp;</span>
+                </li>
+                <li>
+                  <span>1.2.3 Dictados de palabras ejemplo de los tonos</span>
+                </li>
+                <li>
+                  <span>1.3.2 Dibujos de los animales del monte y el r&iacute;o y de sus nombres en lengua</span>
+                </li>
+                <li>
+                  <span>1.3.3 Reconocimiento del vocabulario de la maloca (utensilios, partes de la maloca, instrumentos)</span>
+                </li>
+                <li>
+                  <span>1.2.2 Ejercicios de repetici&oacute;n&nbsp;</span>
+                </li>
+                <li>
+                  <span>1.2.2 Ejercicios de repetici&oacute;n&nbsp;</span>
+                </li>
+              </ul>
+            </ul>
+            <ul>
+              <li>
+                <p>
+                  <b>LOGROS:</b>
+                </p>
+              </li>
 
-            <p>
-              <b>METODOLOG&Iacute;A</b>
-            </p>
-            <p>
-              <span>1.1.1 Explicaci&oacute;n por parte de la maestra</span>
-            </p>
-            <p>
-              <span>1.1.2 Ejercicios de repetici&oacute;n&nbsp;</span>
-            </p>
-            <p>
-              <span>1.1.3 Pr&aacute;ctica en grupos acompa&ntilde;ados por un abuelo bora hablante</span>
-            </p>
-            <p>
-              <span>1.2.1 Explicaci&oacute;n por parte de la maestra</span>
-            </p>
-            <p>
-              <span>1.2.2 Ejercicios de repetici&oacute;n&nbsp;</span>
-            </p>
-            <p>
-              <span>1.2.3 Dictados de palabras ejemplo de los tonos</span>
-            </p>
-            <p>
-              <span>1.3.1 Visita a la chagra para reconocimiento de los nombres de plantas, &aacute;rboles y frutales</span>
-            </p>
-            <p>
-              <span>1.3.2 Dibujos de los animales del monte y el r&iacute;o y de sus nombres en lengua</span>
-            </p>
-            <p>
-              <span>1.3.3 Reconocimiento del vocabulario de la maloca (utensilios, partes de la maloca, instrumentos)</span>
-            </p>
-            <p></p>
-            <p>
-              <b>LOGROS:</b>
-            </p>
-            <p>
-              <span>1.1 El/la aprendiz identifica las vocales y las consonantes</span>
-            </p>
-            <p>
-              <span>1.2 El/la aprendiz identifica y distingue los tonos</span>
-            </p>
-            <p>
-              <span>1.3 El/la aprendiz pronuncia adecuadamente el vocabulario</span>
-            </p>
-            <p></p>
-            <p>
-              <b>EVALUACION:</b>
-            </p>
-            <ol>
+              <ul>
+                <li>
+                  <span>1.1 El/la aprendiz identifica las vocales y las consonantes</span>
+                </li>
+                <li>
+                  <span>1.2 El/la aprendiz identifica y distingue los tonos</span>
+                </li>
+                <li>
+                  <span>1.3 El/la aprendiz pronuncia adecuadamente el vocabulario</span>
+                </li>
+                <ul></ul>
+              </ul>
+            </ul>
+
+            <ul>
               <li>
-                <span> Evaluaci&oacute;n oral mediante ejercicios de pronunciaci&oacute;n</span>
+                <p>
+                  <b>EVALUACION:</b>
+                </p>
               </li>
-              <li>
-                <span> Evaluaci&oacute;n escrita mediante ejercicios de dictado</span>
-              </li>
-              <li>
-                <span> Participaci&oacute;n y actitudinal</span>
-              </li>
-            </ol>
+              <ul>
+                <li>
+                  <span> Evaluaci&oacute;n oral mediante ejercicios de pronunciaci&oacute;n</span>
+                </li>
+                <li>
+                  <span> Evaluaci&oacute;n escrita mediante ejercicios de dictado</span>
+                </li>
+                <li>
+                  <span> Participaci&oacute;n y actitudinal</span>
+                </li>
+              </ul>
+            </ul>
+
+            <ol></ol>
           </p>
           <p>
             En lo que respecta al taller escuela adelantado en la Comunidad Nueva Esmeralda, no se centró en un único oficio, sino en varios oficios complementarios, todos relacionados con el espacio
