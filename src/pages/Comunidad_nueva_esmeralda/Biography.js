@@ -6,11 +6,11 @@ import ImageMaestroBalvina from '../../../public/image/BiografiaBalvina.jpg';
 
 const Biography = () => {
   return (
-    <div style={{ marginTop: '5rem' }}>
+    <div style={{ marginTop: '3rem' }}>
       <Typography variant="h3" align="center">
         biografías de los maestros sabedores
       </Typography>
-      <div style={{ marginTop: '3rem', marginBottom: '5rem', textAlign: 'justify', display: 'flex', justifyContent: 'center' }}>
+      <div style={{ marginTop: '3rem', marginBottom: '3rem', textAlign: 'justify', display: 'flex', justifyContent: 'center' }}>
         <div style={{ width: '400rem', padding: '2rem' }}>
           <div style={{ marginBottom: '1rem' }}>
             <Image src={ImageMaestroLuis} height={400} width={600} objectFit="cover" alt="Imagen de los maestros" />

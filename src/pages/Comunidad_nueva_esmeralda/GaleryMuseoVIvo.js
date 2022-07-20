@@ -10,15 +10,17 @@ import Image from 'next/image';
 export default function TitlebarImageList() {
   return (
     <>
-      <div style={{ padding: '0 1rem rem 0', textAlign: 'justify' }}>
+      <div style={{ textAlign: 'justify' }}>
         <Typography variant="h4" align="center">
           MUSEOS VIVOS
         </Typography>
-        <Typography variant="p">
-          A continuación se presenta una muestra de los “peines” (ajiji) de hojas de caraná con los que se confecciona el techo de una maloca píínemuna (bora). Las fotografías son de la maloca de la
-          comunidad de Nueva Esmeralda, corregimiento de Puerto Arica, durante el proceso de reparación del techo de la maloca que se encontraba en muy mal estado. Se incluyen fotografías exteriores e
-          interiores de la maloca y de los diferentes elementos empleados en ella.
-        </Typography>
+        <div style={{ marginBottom: '3rem' }}>
+          <Typography variant="p">
+            A continuación se presenta una muestra de los “peines” (ajiji) de hojas de caraná con los que se confecciona el techo de una maloca píínemuna (bora). Las fotografías son de la maloca de la
+            comunidad de Nueva Esmeralda, corregimiento de Puerto Arica, durante el proceso de reparación del techo de la maloca que se encontraba en muy mal estado. Se incluyen fotografías exteriores
+            e interiores de la maloca y de los diferentes elementos empleados en ella.
+          </Typography>
+        </div>
       </div>
       <ImageList sx={{ width: 700, height: '2050px' }}>
         {itemDataCaranaMaloca.map((item, index) => (

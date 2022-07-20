@@ -11,7 +11,7 @@ import Link from 'next/link';
 export default function TitlebarImageList() {
   return (
     <>
-      <div style={{ padding: '0 2rem 2rem 0', textAlign: 'justify' }}>
+      <div style={{ textAlign: 'justify' }}>
         <div>
           <Typography variant="h4" align="center">
             MUSEOS VIVOS
