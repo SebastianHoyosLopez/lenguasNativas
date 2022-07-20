@@ -1,6 +1,6 @@
 import { Grid, Typography } from '@mui/material';
 import Image from 'next/image';
-import image from '../../../public/image/galeriaNuevaEsmeralda/2.png';
+import image from '../../../public/image/museoVivoCapiul/photoCapiul1.png';
 
 const Contenido = () => {
   return (
