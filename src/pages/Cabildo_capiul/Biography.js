@@ -13,7 +13,7 @@ const Biography = () => {
       <Typography variant="h3" align="center">
         biografías de los maestros sabedores
       </Typography>
-      <div style={{ marginTop: '3rem', marginBottom: '3rem', textAlign: 'justify', display: 'flex', justifyContent: 'center'}}>
+      <div style={{ marginTop: '3rem', marginBottom: '3rem', textAlign: 'justify', display: 'flex', justifyContent: 'center' }}>
         <div style={{ width: '400rem', padding: '2rem' }}>
           <div style={{ marginBottom: '1rem' }}>
             <Image src={imageMaestroAbelAntonio} height={400} width={600} objectFit="cover" alt="Imagen de los maestros" />
@@ -36,10 +36,9 @@ const Biography = () => {
             ha sido designado como dueño de baile de la Gente de centro, especialmente del baile de frutas (yuaki). Número de contacto: 3125913360
           </Typography>
         </div>
-        
       </div>
-      <div style={{ marginTop: '3rem', marginBottom: '3rem', textAlign: 'justify', display: 'flex', justifyContent: 'center'}}>
-      <div style={{ width: '400rem', padding: '2rem' }}>
+      <div style={{ marginTop: '3rem', marginBottom: '3rem', textAlign: 'justify', display: 'flex', justifyContent: 'center' }}>
+        <div style={{ width: '400rem', padding: '2rem' }}>
           <div style={{ marginBottom: '1rem' }}>
             <Image src={imageMaestroElio} height={400} width={600} objectFit="cover" alt="Imagen de los maestros" />
           </div>
