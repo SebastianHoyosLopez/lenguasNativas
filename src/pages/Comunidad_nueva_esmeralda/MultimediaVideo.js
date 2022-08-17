@@ -6,7 +6,7 @@ const MultimediaVideo = () => {
   return (
     <>
       <Typography variant="h2" align="center" sx={{ marginTop: '3rem' }}>
-        Contenido audivisual
+        Contenido audiovisual
       </Typography>
       <div style={{ display: 'flex', justifyContent: 'space-between', marginRight: '5rem', marginLeft: '5rem', marginBottom: '5rem', marginTop: '5rem' }}>
         <div style={{ width: '40%', height: '20rem' }}>
